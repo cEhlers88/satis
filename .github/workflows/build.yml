@@ -30,9 +30,15 @@ jobs:
           mkdir -p public
           php .tooling/satis/bin/satis build satis.json public -n
 
+      - name: Inspect build output
+        run: |
+          ls -la public
+          find public -maxdepth 2 -type f | head -n 50
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.SATIS_GITHUB_TOKEN }}
           publish_dir: public
           publish_branch: gh-pages
+          force_orphan: true
