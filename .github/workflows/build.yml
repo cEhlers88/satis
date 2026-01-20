@@ -21,7 +21,7 @@ jobs:
       - name: Install satis
         run: |
           mkdir -p .tooling
-          composer create-project --no-interaction --no-progress composer/satis .tooling/satis
+          composer create-project --no-interaction --no-progress satis/satis .tooling/satis
 
       - name: Build
         env:
