@@ -1,0 +1,38 @@
+name: build-satis
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+
+      - name: Install satis
+        run: |
+          mkdir -p .tooling
+          composer create-project --no-interaction --no-progress composer/satis .tooling/satis
+
+      - name: Build
+        env:
+          GITHUB_TOKEN: ${{ secrets.SATIS_GITHUB_TOKEN }}
+        run: |
+          mkdir -p public
+          php .tooling/satis/bin/satis build satis.json public -n
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
+          publish_branch: gh-pages

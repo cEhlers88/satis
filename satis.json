@@ -1,0 +1,17 @@
+{
+  "name": "cehlers88 packages",
+  "homepage": "https://cehlers88.github.io/satis",
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsCore" },
+    { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsCalendarBundle" },
+    { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsDevelopeBundle" },
+    { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsDocumentsBundle" },
+    { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsFiBuBundle" },
+    { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle" }
+  ],
+  "require-all": true,
+  "archive": {
+    "directory": "dist",
+    "format": "zip"
+  }
+}
