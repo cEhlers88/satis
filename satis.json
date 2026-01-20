@@ -1,5 +1,5 @@
 {
-  "name": "cehlers88 packages",
+  "name": "cehlers88/satis",
   "homepage": "https://cehlers88.github.io/satis",
   "repositories": [
     { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsCore" },
