@@ -24,6 +24,13 @@ jobs:
           mkdir -p .tooling
           composer create-project --no-interaction --no-progress composer/satis .tooling/satis dev-main
 
+      - name: Configure git auth for GitHub
+        env:
+          GH_TOKEN: ${{ secrets.SATIS_GITHUB_TOKEN }}
+        run: |
+          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "git@github.com:"
+
       - name: Build
         env:
           GITHUB_TOKEN: ${{ secrets.SATIS_GITHUB_TOKEN }}
