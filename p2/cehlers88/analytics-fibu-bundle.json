@@ -1,0 +1,294 @@
+{
+    "packages": {
+        "cehlers88/analytics-fibu-bundle": [
+            {
+                "name": "cehlers88/analytics-fibu-bundle",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsFiBuBundle.git",
+                    "reference": "9427d6ea94e32ed4377743db5b36526de4f51a82"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-9427d6ea94e32ed4377743db5b36526de4f51a82-zip-31aebd.zip",
+                    "reference": "9427d6ea94e32ed4377743db5b36526de4f51a82",
+                    "shasum": "9c96c9e05e352f797ac302b8400c351ae16f3b94"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.1"
+                },
+                "time": "2026-01-18T12:48:51+00:00",
+                "type": "symfony-bundle",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsFiBuBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "FiBu Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-fibu-bundle",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsFiBuBundle.git",
+                    "reference": "0357a8e9eceac3dd04346a06842d245db988d557"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-0357a8e9eceac3dd04346a06842d245db988d557-zip-07ba56.zip",
+                    "reference": "0357a8e9eceac3dd04346a06842d245db988d557",
+                    "shasum": "df9008400676be4126b948f1372c327a6732fa1a"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.1@dev"
+                },
+                "time": "2026-01-20T16:02:22+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsFiBuBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "FiBu Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-fibu-bundle",
+                "version": "v0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsFiBuBundle.git",
+                    "reference": "715c247dc2729738b2742f8b5367929c8cd6a098"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-715c247dc2729738b2742f8b5367929c8cd6a098-zip-6b2bb1.zip",
+                    "reference": "715c247dc2729738b2742f8b5367929c8cd6a098",
+                    "shasum": "3a11ed530f2f568dfc0f4244a65a67716a442002"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.1@dev"
+                },
+                "time": "2026-01-20T16:31:12+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsFiBuBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "FiBu Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-fibu-bundle",
+                "version": "v0.1.3",
+                "version_normalized": "0.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsFiBuBundle.git",
+                    "reference": "85c89d679528ebc3a5b34ca1f2b99496ffa5965f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-85c89d679528ebc3a5b34ca1f2b99496ffa5965f-zip-69c077.zip",
+                    "reference": "85c89d679528ebc3a5b34ca1f2b99496ffa5965f",
+                    "shasum": "dc0aa680242a4bf353ee22c38b19e5b737387f0b"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.1@dev"
+                },
+                "time": "2026-01-21T09:44:33+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsFiBuBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "FiBu Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-fibu-bundle",
+                "version": "v0.1.4",
+                "version_normalized": "0.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsFiBuBundle.git",
+                    "reference": "5b5adb55d48f8aac18455a662901d4d46043e2b3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-5b5adb55d48f8aac18455a662901d4d46043e2b3-zip-4fa631.zip",
+                    "reference": "5b5adb55d48f8aac18455a662901d4d46043e2b3",
+                    "shasum": "4eb9ca88ec1d52621fc546146fa87d2626045669"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.2.0@dev"
+                },
+                "time": "2026-01-22T10:13:41+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsFiBuBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "FiBu Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-fibu-bundle",
+                "version": "v0.1.5",
+                "version_normalized": "0.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsFiBuBundle.git",
+                    "reference": "90c8d12333c72c6612a208823c07a7c77f7b7abf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-90c8d12333c72c6612a208823c07a7c77f7b7abf-zip-c5fde4.zip",
+                    "reference": "90c8d12333c72c6612a208823c07a7c77f7b7abf",
+                    "shasum": "fa3680e530648a4ce9d7ecf3bbc77d39ac49f284"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.2.0@dev"
+                },
+                "time": "2026-01-22T11:10:03+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsFiBuBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "FiBu Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-fibu-bundle",
+                "version": "v0.1.6",
+                "version_normalized": "0.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsFiBuBundle.git",
+                    "reference": "b0b2820571c07117d5ad2b645dc7cd61a332cd01"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-b0b2820571c07117d5ad2b645dc7cd61a332cd01-zip-7d89ca.zip",
+                    "reference": "b0b2820571c07117d5ad2b645dc7cd61a332cd01",
+                    "shasum": "11557b5e10f174946485cd28435c4d5c10329065"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.2"
+                },
+                "time": "2026-01-22T11:26:12+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsFiBuBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "FiBu Bundle for Analytics"
+            }
+        ]
+    }
+}

@@ -1,0 +1,253 @@
+{
+    "packages": {
+        "cehlers88/analytics-documents-bundle": [
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "24edefba34d7cc368ffe31b2aea3c433bb83b973"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-24edefba34d7cc368ffe31b2aea3c433bb83b973-zip-d6cbe5.zip",
+                    "reference": "24edefba34d7cc368ffe31b2aea3c433bb83b973",
+                    "shasum": "f8eb031bbd9dda4d362deae623d48f5cf3e1ffc5"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.1"
+                },
+                "time": "2026-01-18T12:48:50+00:00",
+                "type": "symfony-bundle",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "60730d746faca153ab819472bf5e432145a4cca2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-60730d746faca153ab819472bf5e432145a4cca2-zip-51ea9e.zip",
+                    "reference": "60730d746faca153ab819472bf5e432145a4cca2",
+                    "shasum": "e513182f89d80d0d79da860e7e6088e9ccf15451"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.1@dev"
+                },
+                "time": "2026-01-20T16:02:10+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "v0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "cc95eecafbf644660ee23f37d93f6fe397c3eded"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-cc95eecafbf644660ee23f37d93f6fe397c3eded-zip-f8a52a.zip",
+                    "reference": "cc95eecafbf644660ee23f37d93f6fe397c3eded",
+                    "shasum": "e42b909540b7603728c9c0dab03386500dc7afa2"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.1@dev"
+                },
+                "time": "2026-01-20T16:26:54+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "v0.1.3",
+                "version_normalized": "0.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "4bd384dcf5d6ab0c6fd10adeb352edddf489c487"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-4bd384dcf5d6ab0c6fd10adeb352edddf489c487-zip-20ddcf.zip",
+                    "reference": "4bd384dcf5d6ab0c6fd10adeb352edddf489c487",
+                    "shasum": "8b35c5e2b448e134846a9285650fe47c4af24b4e"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.1@dev"
+                },
+                "time": "2026-01-21T10:11:42+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "v0.1.4",
+                "version_normalized": "0.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "a7548db8a21e83ee36b61b046d53931bd09b6c09"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-a7548db8a21e83ee36b61b046d53931bd09b6c09-zip-e42218.zip",
+                    "reference": "a7548db8a21e83ee36b61b046d53931bd09b6c09",
+                    "shasum": "490a35218a9ef24e5bb484b4e8f3bff879691701"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.2.0@dev"
+                },
+                "time": "2026-01-22T11:09:31+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics"
+            },
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "v0.1.5",
+                "version_normalized": "0.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "ed351315dc74a9ea94f4fb48a737630b35f9b01a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-ed351315dc74a9ea94f4fb48a737630b35f9b01a-zip-344a9f.zip",
+                    "reference": "ed351315dc74a9ea94f4fb48a737630b35f9b01a",
+                    "shasum": "2d7b05afbb9143284c96789ce3c544013db89b10"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "^0.2"
+                },
+                "time": "2026-01-22T11:25:59+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics"
+            }
+        ]
+    }
+}

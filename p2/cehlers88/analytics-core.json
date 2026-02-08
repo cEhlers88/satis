@@ -1,0 +1,342 @@
+{
+    "packages": {
+        "cehlers88/analytics-core": [
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v0.1.3",
+                "version_normalized": "0.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "438010b331a2cef763f11b85d41735061d04b65c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-438010b331a2cef763f11b85d41735061d04b65c-zip-64fe7c.zip",
+                    "reference": "438010b331a2cef763f11b85d41735061d04b65c",
+                    "shasum": "2eb6cd2c75e14daea4608b1af85f17cfd5bcc13b"
+                },
+                "require": {
+                    "ext-curl": "*"
+                },
+                "time": "2026-01-20T11:50:09+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core"
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v0.1.4",
+                "version_normalized": "0.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "f4e362a61553ebfd50e66e7f3374ded039c1bd42"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-f4e362a61553ebfd50e66e7f3374ded039c1bd42-zip-130435.zip",
+                    "reference": "f4e362a61553ebfd50e66e7f3374ded039c1bd42",
+                    "shasum": "c0b2d99246f9d1a1f7e9f42de6ececdfcf473210"
+                },
+                "require": {
+                    "ext-curl": "*"
+                },
+                "time": "2026-01-21T08:37:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core"
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v0.1.5",
+                "version_normalized": "0.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "42613cadab3271f188c2e95d486cb604d6c89d38"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-42613cadab3271f188c2e95d486cb604d6c89d38-zip-532275.zip",
+                    "reference": "42613cadab3271f188c2e95d486cb604d6c89d38",
+                    "shasum": "f71bebfb0ae79c5f874dddc0e6593588ab618ee5"
+                },
+                "require": {
+                    "ext-curl": "*"
+                },
+                "time": "2026-01-21T09:03:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core"
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v0.1.6",
+                "version_normalized": "0.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "9feff4bd6095efd4660ec81a1379b1932ed2c530"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-9feff4bd6095efd4660ec81a1379b1932ed2c530-zip-f908ca.zip",
+                    "reference": "9feff4bd6095efd4660ec81a1379b1932ed2c530",
+                    "shasum": "59c880e62239164bf0fd7639da62a2200d073c7d"
+                },
+                "require": {
+                    "ext-curl": "*"
+                },
+                "time": "2026-01-21T11:19:02+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core"
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v0.1.7",
+                "version_normalized": "0.1.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "a0e91e978eb073159c38382d4fdcd2f29d4753d0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-a0e91e978eb073159c38382d4fdcd2f29d4753d0-zip-8a9cca.zip",
+                    "reference": "a0e91e978eb073159c38382d4fdcd2f29d4753d0",
+                    "shasum": "042a114aa7690b61267758c953fd2e59f822b839"
+                },
+                "require": {
+                    "ext-curl": "*"
+                },
+                "time": "2026-01-21T11:24:06+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core"
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v0.1.8",
+                "version_normalized": "0.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "5389d5182b88564aab31c9e028d27c4ff56416eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-5389d5182b88564aab31c9e028d27c4ff56416eb-zip-3892a2.zip",
+                    "reference": "5389d5182b88564aab31c9e028d27c4ff56416eb",
+                    "shasum": "d35ace038316905e283f9a1f6532a259c3237778"
+                },
+                "require": {
+                    "ext-curl": "*"
+                },
+                "time": "2026-01-21T12:21:15+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core"
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "f6848514160446a9d85b0e968e4e7b936cb25965"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-f6848514160446a9d85b0e968e4e7b936cb25965-zip-ffd8d0.zip",
+                    "reference": "f6848514160446a9d85b0e968e4e7b936cb25965",
+                    "shasum": "2d7298fbbde1e5958c44808b7c9cfec8b615e4bd"
+                },
+                "require": {
+                    "ext-curl": "*"
+                },
+                "time": "2026-01-22T07:55:07+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core"
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "d62c117c406b361bace17292863f1e525693e649"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-d62c117c406b361bace17292863f1e525693e649-zip-1014d9.zip",
+                    "reference": "d62c117c406b361bace17292863f1e525693e649",
+                    "shasum": "7c86d17eae863c1d1fa308245342384cc92c4410"
+                },
+                "require": {
+                    "ext-curl": "*"
+                },
+                "time": "2026-01-22T10:11:30+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.1.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core"
+            }
+        ]
+    }
+}
