@@ -11,32 +11,38 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    env:
+      COMPOSER_PROCESS_TIMEOUT: 0
+      COMPOSER_NO_INTERACTION: 1
+      COMPOSER_NO_AUDIT: 1
+
     steps:
       - uses: actions/checkout@v4
-        env:
-          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
       - uses: shivammathur/setup-php@v2
         with:
           php-version: "8.4"
           coverage: none
+          tools: composer:v2
+
+      - name: Configure auth
+        env:
+          SATIS_GITHUB_TOKEN: ${{ secrets.SATIS_GITHUB_TOKEN }}
+        run: |
+          composer config --global --auth github-oauth.github.com "$SATIS_GITHUB_TOKEN"
+
+          git config --global url."https://x-access-token:${SATIS_GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${SATIS_GITHUB_TOKEN}@github.com/".insteadOf "git@github.com:"
 
       - name: Install satis
         run: |
           mkdir -p .tooling
           composer create-project --no-interaction --no-progress composer/satis .tooling/satis dev-main
 
-      - name: Configure git auth for GitHub
-        env:
-          GH_TOKEN: ${{ secrets.SATIS_GITHUB_TOKEN }}
-        run: |
-          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
-          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "git@github.com:"
-
       - name: Build
-        env:
-          GITHUB_TOKEN: ${{ secrets.SATIS_GITHUB_TOKEN }}
         run: |
+          unset GITHUB_TOKEN
           mkdir -p public
           php .tooling/satis/bin/satis build satis.json public -n
 
@@ -48,7 +54,7 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ github.token }}
           publish_dir: public
           publish_branch: gh-pages
           force_orphan: true
