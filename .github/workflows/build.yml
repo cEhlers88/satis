@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: "true"
+        env:
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
       - uses: shivammathur/setup-php@v2
         with:
