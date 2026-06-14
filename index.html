@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <meta name="description" content="This Composer repository is powered by Satis">
+    
+            <meta name="robots" content="noindex,nofollow">
+    
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAC3FBMVEUAAAAAAAAAAAAAAAChaRChaA2iaA2aZQOjaA4AAAChaA2gZw0AAACiaA2hZwwAAAAAAAAAAAAAAAAAAADhxpqjbBOiaA6iaA0AAAAAAAAAAACiahC+k06ochypbhGkbBSgaA0AAACgaA4AAACZZgDkx5qteSescRSveyujaxKjag6hZwyeZxKiaQ+jaQ6kbBOiahGjahECAACgZwsGBACgZguhaAqfZQoAAADZrGLOpGLQqWu4iDrEnVy0gzSpdCClbha0hjmwcxKocx+JWQ6kbRKAUw10TAt1SwqlbhihaA6iaAuhaQ6gZg8dFAAAAAAAAAAoGwBJMQDqum+gZwz048rGijDBhSnot2vksmTfrF3bplXXoU7Sm0fOlj/KkDjsv3rpx5Hux4nvzJTvypDswHujbRjvy5HuyY7uyIztxYbx0Z7wzZb46M/wzpjqyJPux4rivYLrv3vrvXfwz5rtxITsw4HswoDIhh7y8vL04cTuzp3qyZbqyZTQix/r6+vs2Ljy163w1KnqzqHx0Jztw4PswX3euHu6jETSjR/MiR67fBu0eBni4eD47NjX0s7z4sjUzcPx3b3x2bTWxavt0aboypvty5bmxI7uyY3lwYjRmDzXkSHVjyCncyClbxr6+vr09PTPysPx3sHy3bzTyrzw27m/urPhw5XPt5HgwZDbvpDkvoPOqW3cq1/EnV/UoVLClk62hjnLiybFhiW9giS3fSOzeSKveCLSjSHAgR2rcx2jaxPk5OTq49r57Nj469fW1tbx5dLr383V0cvSzsnk2MfFxcXs277Kxb3d0LzWyLPHwLPq07Ho0azRw6znzqXWw6Tu0KDjyaDVwaDSvJnjxJbVupHDr5C8qo7euYDfuX7Zs3jXsHS8oHTVrXHmuHC6nW7is2rXrWnTpV6yikzOmUi+kETLlEHTnD+hfD7Gjzu4iDrZmTbTlza2gS7HiSfelSPMiSCbaBenSQe3AAAAU3RSTlMAJDkP8ff7Ct0E89oG6VQ0IBILCP7qhG0pHBUP9vX18NIxJBkG/v779vb15uXgwLqeeERBQTcvGBj+/Pr59vb19fT077Gpo6GYlH1gXEY0LSwmFZUbhT0AAAK+SURBVEjHYhgFQx+o8OkqcIMBBxho8wIBl54pDuXShqLP1xQCwZpZMxJrpjVPbWqcPGnChAkNahzeKpjKOT01ZUQK1ebNm7d7x/bt27Zt3Rq+5cPmzV11nVYiXU5cYhgaADJwnJTbvjENCObv3vG+p6e7e1fYlooKoIa5IpYf6+QM0NSLaVTlXmifD1J/b9+Cyt4bT6csXFi/dD1Iw7uGt3Pq5FDtELeflJvb/gao/vPN+srK+r3HeysXVNb3HnxY0Tl3zmOROTsrtMSR1PPJNuTmrrrd0dGx6dXSiRMnLlq+vL+//8jRRSfPbJo9e/bLs092ftqlxQdXb+xwLnfZ+qnVIDBtxerrK1devXJxypTzp08dO3zoQF9f3/4TPRUV3azGUPVm8pcbbPesnpwNAS0tJSUleXk5OTnJycnp6SkpGRkZy9aGqHf3cJmB1SvJr5XR1AdoYxU2lTMzMwsKkpKSUqo69Ljk1FmUgOrNRffIGyrJLm4CKsVUmZWVVVraWlaWt0TWV4yLTducgUFBVJydQV91MlhlCobK8vLytraioqKmZlFpaS8uBU4GUxVgKMlUpWdkZmZiU1mUUAwGS6xdGRjYISEl7bw4lDCosvOBR1sIcUAXKerYAWNbFY4HvL7PClWI0LAiDA94cRdTw7V4PODZHUwNqnF4wIZ2TA3TYvGADbcwNTTH4AHrCrFoiMYD1s3C1DA1Cg94NANTQ1MkHvAgEU0DZxBbYwQeUDydVVAYST2PYCBbYzAekDCdlVGSmRNuvqCAH0EN/BKSzDANQsoSTKyXWlPhIAEdJM3iNVFklOJB0uBiM6MGCGpBIB8CEhGgUMPdiB+hgUeKUdHETYcFN9DxMGLyFxDkhLvJgjGAn58JD+BXlBCQQgonYUFlSQFGPEBA0oIZ6iCYs4SFmPEAIWFOhlFAPAAATm2lbby4gY4AAAAASUVORK5CYII=">
+
+    <title>cehlers88/satis</title>
+
+    <style type="text/css">
+        /*!
+ * Bootstrap  v5.3.8 (https://getbootstrap.com/)
+ * Copyright 2011-2025 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-black:#000;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-primary-rgb:13,110,253;--bs-secondary-rgb:108,117,125;--bs-success-rgb:25,135,84;--bs-info-rgb:13,202,240;--bs-warning-rgb:255,193,7;--bs-danger-rgb:220,53,69;--bs-light-rgb:248,249,250;--bs-dark-rgb:33,37,41;--bs-primary-text-emphasis:#052c65;--bs-secondary-text-emphasis:#2b2f32;--bs-success-text-emphasis:#0a3622;--bs-info-text-emphasis:#055160;--bs-warning-text-emphasis:#664d03;--bs-danger-text-emphasis:#58151c;--bs-light-text-emphasis:#495057;--bs-dark-text-emphasis:#495057;--bs-primary-bg-subtle:#cfe2ff;--bs-secondary-bg-subtle:#e2e3e5;--bs-success-bg-subtle:#d1e7dd;--bs-info-bg-subtle:#cff4fc;--bs-warning-bg-subtle:#fff3cd;--bs-danger-bg-subtle:#f8d7da;--bs-light-bg-subtle:#fcfcfd;--bs-dark-bg-subtle:#ced4da;--bs-primary-border-subtle:#9ec5fe;--bs-secondary-border-subtle:#c4c8cb;--bs-success-border-subtle:#a3cfbb;--bs-info-border-subtle:#9eeaf9;--bs-warning-border-subtle:#ffe69c;--bs-danger-border-subtle:#f1aeb5;--bs-light-border-subtle:#e9ecef;--bs-dark-border-subtle:#adb5bd;--bs-white-rgb:255,255,255;--bs-black-rgb:0,0,0;--bs-font-sans-serif:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--bs-gradient:linear-gradient(180deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0));--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:1rem;--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#212529;--bs-body-color-rgb:33,37,41;--bs-body-bg:#fff;--bs-body-bg-rgb:255,255,255;--bs-emphasis-color:#000;--bs-emphasis-color-rgb:0,0,0;--bs-secondary-color:rgba(33,37,41,.75);--bs-secondary-color-rgb:33,37,41;--bs-secondary-bg:#e9ecef;--bs-secondary-bg-rgb:233,236,239;--bs-tertiary-color:rgba(33,37,41,.5);--bs-tertiary-color-rgb:33,37,41;--bs-tertiary-bg:#f8f9fa;--bs-tertiary-bg-rgb:248,249,250;--bs-heading-color:inherit;--bs-link-color:#0d6efd;--bs-link-color-rgb:13,110,253;--bs-link-decoration:underline;--bs-link-hover-color:#0a58ca;--bs-link-hover-color-rgb:10,88,202;--bs-code-color:#d63384;--bs-highlight-color:#212529;--bs-highlight-bg:#fff3cd;--bs-border-width:1px;--bs-border-style:solid;--bs-border-color:#dee2e6;--bs-border-color-translucent:rgba(0,0,0,.175);--bs-border-radius:0.375rem;--bs-border-radius-sm:0.25rem;--bs-border-radius-lg:0.5rem;--bs-border-radius-xl:1rem;--bs-border-radius-xxl:2rem;--bs-border-radius-2xl:var(--bs-border-radius-xxl);--bs-border-radius-pill:50rem;--bs-box-shadow:0 0.5rem 1rem rgba(0,0,0,.15);--bs-box-shadow-sm:0 0.125rem 0.25rem rgba(0,0,0,.075);--bs-box-shadow-lg:0 1rem 3rem rgba(0,0,0,.175);--bs-box-shadow-inset:inset 0 1px 2px rgba(0,0,0,.075);--bs-focus-ring-width:0.25rem;--bs-focus-ring-opacity:0.25;--bs-focus-ring-color:rgba(13,110,253,.25);--bs-form-valid-color:#198754;--bs-form-valid-border-color:#198754;--bs-form-invalid-color:#dc3545;--bs-form-invalid-border-color:#dc3545}*,:after,:before{box-sizing:border-box}@media(prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{background-color:var(--bs-body-bg);color:var(--bs-body-color);font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);margin:0;text-align:var(--bs-body-text-align);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}.h1,.h2,.h5,.h6,h1,h2,h5,h6{color:var(--bs-heading-color);font-weight:500;line-height:1.2;margin-bottom:.5rem;margin-top:0}.h1,h1{font-size:calc(1.375rem + 1.5vw)}@media(min-width:1200px){.h1,h1{font-size:2.5rem}}.h2,h2{font-size:calc(1.325rem + .9vw)}@media(min-width:1200px){.h2,h2{font-size:2rem}}.h5,h5{font-size:1.25rem}.h6,h6{font-size:1rem}p{margin-bottom:1rem;margin-top:0}ul{padding-left:2rem}dl,ul{margin-bottom:1rem;margin-top:0}ul ul{margin-bottom:0}dt{font-weight:700}dd{margin-bottom:.5rem;margin-left:0}strong{font-weight:bolder}.small,small{font-size:.875em}a{color:rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));text-decoration:underline}a:hover{--bs-link-color-rgb:var(--bs-link-hover-color-rgb)}a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}code,pre{font-family:var(--bs-font-monospace);font-size:1em}pre{display:block;font-size:.875em;margin-bottom:1rem;margin-top:0;overflow:auto}pre code{color:inherit;font-size:inherit;word-break:normal}code{color:var(--bs-code-color);font-size:.875em;word-wrap:break-word}a>code{color:inherit}img,svg{vertical-align:middle}label{display:inline-block}button{border-radius:0}button:focus:not(:focus-visible){outline:0}button,input,optgroup,select{font-family:inherit;font-size:inherit;line-height:inherit;margin:0}button,select{text-transform:none}[role=button]{cursor:pointer}select{word-wrap:normal}select:disabled{opacity:1}[type=button],button{-webkit-appearance:button}[type=button]:not(:disabled),button:not(:disabled){cursor:pointer}::-moz-focus-inner{border-style:none;padding:0}::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-fields-wrapper,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-text,::-webkit-datetime-edit-year-field{padding:0}::-webkit-inner-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button{cursor:pointer;filter:grayscale(1)}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-color-swatch-wrapper{padding:0}::file-selector-button{-webkit-appearance:button;font:inherit}[hidden]{display:none!important}.lead{font-size:1.25rem;font-weight:300}.list-unstyled{list-style:none;padding-left:0}.container{--bs-gutter-x:1.5rem;--bs-gutter-y:0;margin-left:auto;margin-right:auto;padding-left:calc(var(--bs-gutter-x)*.5);padding-right:calc(var(--bs-gutter-x)*.5);width:100%}@media(min-width:576px){.container{max-width:540px}}@media(min-width:768px){.container{max-width:720px}}@media(min-width:992px){.container{max-width:960px}}@media(min-width:1200px){.container{max-width:1140px}}@media(min-width:1400px){.container{max-width:1320px}}:root{--bs-breakpoint-xs:0;--bs-breakpoint-sm:576px;--bs-breakpoint-md:768px;--bs-breakpoint-lg:992px;--bs-breakpoint-xl:1200px;--bs-breakpoint-xxl:1400px}.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-left:calc(var(--bs-gutter-x)*-.5);margin-right:calc(var(--bs-gutter-x)*-.5);margin-top:calc(var(--bs-gutter-y)*-1)}.row>*{flex-shrink:0;margin-top:var(--bs-gutter-y);max-width:100%;padding-left:calc(var(--bs-gutter-x)*.5);padding-right:calc(var(--bs-gutter-x)*.5);width:100%}@media(min-width:576px){.col-sm-3{flex:0 0 auto;width:25%}.col-sm-9{flex:0 0 auto;width:75%}}@media(min-width:768px){.col-md-2{flex:0 0 auto;width:16.66666667%}.col-md-10{flex:0 0 auto;width:83.33333333%}}.form-control{appearance:none;background-clip:padding-box;background-color:var(--bs-body-bg);border:var(--bs-border-width) solid var(--bs-border-color);border-radius:var(--bs-border-radius);color:var(--bs-body-color);display:block;font-size:1rem;font-weight:400;line-height:1.5;padding:.375rem .75rem;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;width:100%}@media(prefers-reduced-motion:reduce){.form-control{transition:none}}.form-control[type=file]{overflow:hidden}.form-control[type=file]:not(:disabled):not([readonly]){cursor:pointer}.form-control:focus{background-color:var(--bs-body-bg);border-color:#86b7fe;box-shadow:0 0 0 .25rem rgba(13,110,253,.25);color:var(--bs-body-color);outline:0}.form-control::-webkit-date-and-time-value{height:1.5em;margin:0;min-width:85px}.form-control::-webkit-datetime-edit{display:block;padding:0}.form-control::placeholder{color:var(--bs-secondary-color);opacity:1}.form-control:disabled{background-color:var(--bs-secondary-bg);opacity:1}.form-control::file-selector-button{background-color:var(--bs-tertiary-bg);border:0 solid;border-color:inherit;border-inline-end-width:var(--bs-border-width);border-radius:0;color:var(--bs-body-color);margin:-.375rem -.75rem;margin-inline-end:.75rem;padding:.375rem .75rem;pointer-events:none;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media(prefers-reduced-motion:reduce){.form-control::file-selector-button{transition:none}}.form-control:hover:not(:disabled):not([readonly])::file-selector-button{background-color:var(--bs-secondary-bg)}.form-select{--bs-form-select-bg-img:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E");appearance:none;background-color:var(--bs-body-bg);background-image:var(--bs-form-select-bg-img),var(--bs-form-select-bg-icon,none);background-position:right .75rem center;background-repeat:no-repeat;background-size:16px 12px;border:var(--bs-border-width) solid var(--bs-border-color);border-radius:var(--bs-border-radius);color:var(--bs-body-color);display:block;font-size:1rem;font-weight:400;line-height:1.5;padding:.375rem 2.25rem .375rem .75rem;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;width:100%}@media(prefers-reduced-motion:reduce){.form-select{transition:none}}.form-select:focus{border-color:#86b7fe;box-shadow:0 0 0 .25rem rgba(13,110,253,.25);outline:0}.form-select:disabled{background-color:var(--bs-secondary-bg)}.form-select:-moz-focusring{color:transparent;text-shadow:0 0 0 var(--bs-body-color)}.form-check{display:block;margin-bottom:.125rem;min-height:1.5rem;padding-left:1.5em}.form-check .form-check-input{float:left;margin-left:-1.5em}.form-check-input{--bs-form-check-bg:var(--bs-body-bg);appearance:none;background-color:var(--bs-form-check-bg);background-image:var(--bs-form-check-bg-image);background-position:50%;background-repeat:no-repeat;background-size:contain;border:var(--bs-border-width) solid var(--bs-border-color);flex-shrink:0;height:1em;margin-top:.25em;print-color-adjust:exact;vertical-align:top;width:1em}.form-check-input[type=checkbox]{border-radius:.25em}.form-check-input[type=radio]{border-radius:50%}.form-check-input:active{filter:brightness(90%)}.form-check-input:focus{border-color:#86b7fe;box-shadow:0 0 0 .25rem rgba(13,110,253,.25);outline:0}.form-check-input:checked{background-color:#0d6efd;border-color:#0d6efd}.form-check-input:checked[type=checkbox]{--bs-form-check-bg-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3E%3C/svg%3E")}.form-check-input:checked[type=radio]{--bs-form-check-bg-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='2' fill='%23fff'/%3E%3C/svg%3E")}.form-check-input[type=checkbox]:indeterminate{background-color:#0d6efd;border-color:#0d6efd;--bs-form-check-bg-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3E%3C/svg%3E")}.form-check-input:disabled{filter:none;opacity:.5;pointer-events:none}.form-check-input:disabled~.form-check-label,.form-check-input[disabled]~.form-check-label{cursor:default;opacity:.5}.form-check-inline{display:inline-block;margin-right:1rem}.input-group{align-items:stretch;display:flex;flex-wrap:wrap;position:relative;width:100%}.input-group>.form-control,.input-group>.form-select{flex:1 1 auto;min-width:0;position:relative;width:1%}.input-group>.form-control:focus,.input-group>.form-select:focus{z-index:5}.input-group .btn{position:relative;z-index:2}.input-group .btn:focus{z-index:5}.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating){border-bottom-right-radius:0;border-top-right-radius:0}.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){border-bottom-left-radius:0;border-top-left-radius:0;margin-left:calc(var(--bs-border-width)*-1)}.btn{--bs-btn-padding-x:0.75rem;--bs-btn-padding-y:0.375rem;--bs-btn-font-family: ;--bs-btn-font-size:1rem;--bs-btn-font-weight:400;--bs-btn-line-height:1.5;--bs-btn-color:var(--bs-body-color);--bs-btn-bg:transparent;--bs-btn-border-width:var(--bs-border-width);--bs-btn-border-color:transparent;--bs-btn-border-radius:var(--bs-border-radius);--bs-btn-hover-border-color:transparent;--bs-btn-box-shadow:inset 0 1px 0 hsla(0,0%,100%,.15),0 1px 1px rgba(0,0,0,.075);--bs-btn-disabled-opacity:0.65;--bs-btn-focus-box-shadow:0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb),.5);background-color:var(--bs-btn-bg);border:var(--bs-btn-border-width) solid var(--bs-btn-border-color);border-radius:var(--bs-btn-border-radius);color:var(--bs-btn-color);cursor:pointer;display:inline-block;font-family:var(--bs-btn-font-family);font-size:var(--bs-btn-font-size);font-weight:var(--bs-btn-font-weight);line-height:var(--bs-btn-line-height);padding:var(--bs-btn-padding-y) var(--bs-btn-padding-x);text-align:center;text-decoration:none;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;user-select:none;vertical-align:middle}@media(prefers-reduced-motion:reduce){.btn{transition:none}}.btn:hover{background-color:var(--bs-btn-hover-bg);border-color:var(--bs-btn-hover-border-color);color:var(--bs-btn-hover-color)}.btn:focus-visible{background-color:var(--bs-btn-hover-bg);border-color:var(--bs-btn-hover-border-color);box-shadow:var(--bs-btn-focus-box-shadow);color:var(--bs-btn-hover-color);outline:0}.btn.active,.btn.show,.btn:first-child:active,:not(.btn-check)+.btn:active{background-color:var(--bs-btn-active-bg);border-color:var(--bs-btn-active-border-color);color:var(--bs-btn-active-color)}.btn.active:focus-visible,.btn.show:focus-visible,.btn:first-child:active:focus-visible,:not(.btn-check)+.btn:active:focus-visible{box-shadow:var(--bs-btn-focus-box-shadow)}.btn.disabled,.btn:disabled{background-color:var(--bs-btn-disabled-bg);border-color:var(--bs-btn-disabled-border-color);color:var(--bs-btn-disabled-color);opacity:var(--bs-btn-disabled-opacity);pointer-events:none}.btn-primary{--bs-btn-color:#fff;--bs-btn-bg:#0d6efd;--bs-btn-border-color:#0d6efd;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#0b5ed7;--bs-btn-hover-border-color:#0a58ca;--bs-btn-focus-shadow-rgb:49,132,253;--bs-btn-active-color:#fff;--bs-btn-active-bg:#0a58ca;--bs-btn-active-border-color:#0a53be;--bs-btn-active-shadow:inset 0 3px 5px rgba(0,0,0,.125);--bs-btn-disabled-color:#fff;--bs-btn-disabled-bg:#0d6efd;--bs-btn-disabled-border-color:#0d6efd}.btn-outline-secondary{--bs-btn-color:#6c757d;--bs-btn-border-color:#6c757d;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#6c757d;--bs-btn-hover-border-color:#6c757d;--bs-btn-focus-shadow-rgb:108,117,125;--bs-btn-active-color:#fff;--bs-btn-active-bg:#6c757d;--bs-btn-active-border-color:#6c757d;--bs-btn-active-shadow:inset 0 3px 5px rgba(0,0,0,.125);--bs-btn-disabled-color:#6c757d;--bs-btn-disabled-bg:transparent;--bs-btn-disabled-border-color:#6c757d;--bs-gradient:none}.btn-sm{--bs-btn-padding-y:0.25rem;--bs-btn-padding-x:0.5rem;--bs-btn-font-size:0.875rem;--bs-btn-border-radius:var(--bs-border-radius-sm)}.card{--bs-card-spacer-y:1rem;--bs-card-spacer-x:1rem;--bs-card-title-spacer-y:0.5rem;--bs-card-title-color: ;--bs-card-subtitle-color: ;--bs-card-border-width:var(--bs-border-width);--bs-card-border-color:var(--bs-border-color-translucent);--bs-card-border-radius:var(--bs-border-radius);--bs-card-box-shadow: ;--bs-card-inner-border-radius:calc(var(--bs-border-radius) - var(--bs-border-width));--bs-card-cap-padding-y:0.5rem;--bs-card-cap-padding-x:1rem;--bs-card-cap-bg:rgba(var(--bs-body-color-rgb),0.03);--bs-card-cap-color: ;--bs-card-height: ;--bs-card-color: ;--bs-card-bg:var(--bs-body-bg);--bs-card-img-overlay-padding:1rem;--bs-card-group-margin:0.75rem;color:var(--bs-body-color);display:flex;flex-direction:column;height:var(--bs-card-height);min-width:0;position:relative;word-wrap:break-word;background-clip:border-box;background-color:var(--bs-card-bg);border:var(--bs-card-border-width) solid var(--bs-card-border-color);border-radius:var(--bs-card-border-radius)}.card-body{color:var(--bs-card-color);flex:1 1 auto;padding:var(--bs-card-spacer-y) var(--bs-card-spacer-x)}.card-title{color:var(--bs-card-title-color);margin-bottom:var(--bs-card-title-spacer-y)}.card-header{background-color:var(--bs-card-cap-bg);border-bottom:var(--bs-card-border-width) solid var(--bs-card-border-color);color:var(--bs-card-cap-color);margin-bottom:0;padding:var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x)}.card-header:first-child{border-radius:var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0}.badge{--bs-badge-padding-x:0.65em;--bs-badge-padding-y:0.35em;--bs-badge-font-size:0.75em;--bs-badge-font-weight:700;--bs-badge-color:#fff;--bs-badge-border-radius:var(--bs-border-radius);border-radius:var(--bs-badge-border-radius);color:var(--bs-badge-color);display:inline-block;font-size:var(--bs-badge-font-size);font-weight:var(--bs-badge-font-weight);line-height:1;padding:var(--bs-badge-padding-y) var(--bs-badge-padding-x);text-align:center;vertical-align:baseline;white-space:nowrap}.badge:empty{display:none}.btn .badge{position:relative;top:-1px}@keyframes progress-bar-stripes{0%{background-position-x:var(--bs-progress-height)}}:root{--bs-btn-close-filter: }.tooltip{--bs-tooltip-zindex:1080;--bs-tooltip-max-width:200px;--bs-tooltip-padding-x:0.5rem;--bs-tooltip-padding-y:0.25rem;--bs-tooltip-margin: ;--bs-tooltip-font-size:0.875rem;--bs-tooltip-color:var(--bs-body-bg);--bs-tooltip-bg:var(--bs-emphasis-color);--bs-tooltip-border-radius:var(--bs-border-radius);--bs-tooltip-opacity:0.9;--bs-tooltip-arrow-width:0.8rem;--bs-tooltip-arrow-height:0.4rem;display:block;font-family:var(--bs-font-sans-serif);font-size:var(--bs-tooltip-font-size);font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.5;margin:var(--bs-tooltip-margin);text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;z-index:var(--bs-tooltip-zindex);word-wrap:break-word;opacity:0}.tooltip.show{opacity:var(--bs-tooltip-opacity)}.tooltip-inner{background-color:var(--bs-tooltip-bg);border-radius:var(--bs-tooltip-border-radius);color:var(--bs-tooltip-color);max-width:var(--bs-tooltip-max-width);padding:var(--bs-tooltip-padding-y) var(--bs-tooltip-padding-x);text-align:center}:root{--bs-carousel-indicator-active-bg:#fff;--bs-carousel-caption-color:#fff;--bs-carousel-control-icon-filter: }@keyframes spinner-border{to{transform:rotate(1turn)}}@keyframes spinner-grow{0%{transform:scale(0)}50%{opacity:1;transform:none}}.placeholder{background-color:currentcolor;cursor:wait;display:inline-block;min-height:1em;opacity:.5;vertical-align:middle}.placeholder.btn:before{content:"";display:inline-block}@keyframes placeholder-glow{50%{opacity:.2}}@keyframes placeholder-wave{to{mask-position:-200% 0}}.text-bg-primary{background-color:RGBA(var(--bs-primary-rgb),var(--bs-bg-opacity,1))!important;color:#fff!important}.text-bg-secondary{background-color:RGBA(var(--bs-secondary-rgb),var(--bs-bg-opacity,1))!important;color:#fff!important}.text-bg-info{background-color:RGBA(var(--bs-info-rgb),var(--bs-bg-opacity,1))!important;color:#000!important}.text-bg-danger{background-color:RGBA(var(--bs-danger-rgb),var(--bs-bg-opacity,1))!important;color:#fff!important}.visually-hidden{height:1px!important;margin:-1px!important;overflow:hidden!important;padding:0!important;width:1px!important;clip:rect(0,0,0,0)!important;border:0!important;white-space:nowrap!important}.visually-hidden:not(caption){position:absolute!important}.visually-hidden *{overflow:hidden!important}.d-flex{display:flex!important}.d-none{display:none!important}.border-primary{--bs-border-opacity:1;border-color:rgba(var(--bs-primary-rgb),var(--bs-border-opacity))!important}.border-danger{--bs-border-opacity:1;border-color:rgba(var(--bs-danger-rgb),var(--bs-border-opacity))!important}.justify-content-between{justify-content:space-between!important}.align-items-center{align-items:center!important}.m-0{margin:0!important}.m-1{margin:.25rem!important}.my-3{margin-bottom:1rem!important}.mt-3,.my-3{margin-top:1rem!important}.mb-0{margin-bottom:0!important}.mb-3{margin-bottom:1rem!important}.pt-3{padding-top:1rem!important}.text-center{text-align:center!important}.text-dark{--bs-text-opacity:1;color:rgba(var(--bs-dark-rgb),var(--bs-text-opacity))!important}.text-reset{--bs-text-opacity:1;color:inherit!important}.bg-primary{--bs-bg-opacity:1;background-color:rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))!important}.bg-secondary{--bs-bg-opacity:1;background-color:rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity))!important}.bg-light{--bs-bg-opacity:1;background-color:rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important}.rounded-pill{border-radius:var(--bs-border-radius-pill)!important}.visible{visibility:visible!important}@media(min-width:768px){.d-md-none{display:none!important}}pre.file{background-color:#f8f9fa;border-left:2px solid #0d6efd;padding:.5rem}.toggle-settings svg{fill:currentColor;pointer-events:none;transition:transform .25s}.toggle-settings.active svg{transform:rotate(45deg)}.copy-snippet__button svg{fill:currentColor;pointer-events:none}.copy-snippet__tooltip{left:0;top:100%;transform:translateY(-50%);transition:opacity .25s,transform .25s}.copy-snippet__tooltip.show{transform:none}.copy-snippet__tooltip .arrow{left:50%;transform:translateX(-50%)}.copy-snippet__tooltip .tooltip-inner{max-width:none}a{text-decoration:none}a:focus,a:hover{text-decoration:underline}.filter-by a.badge.bg-secondary:focus,.filter-by a.badge.bg-secondary:hover{background-color:#000!important;text-decoration:none}    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <header class="mt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="https://cehlers88.github.io/satis">
+                <h1>cehlers88/satis</h1>
+            </a>
+            <span class="badge bg-light text-dark m-1" title="Sunday, 14-Jun-2026 12:58:25 UTC">
+                Last updated: <br class="d-md-none"> <time datetime="2026-06-14T12:58:25+00:00">Sunday, 14 Jun 2026 12:58:25 UTC</time>
+            </span>
+        </div>
+
+            </header>
+
+    <form class="my-3">
+        <div class="input-group">
+            <label for="search" class="visually-hidden">Filter packages</label>
+            <input type="search"
+                id="search"
+                class="form-control"
+                placeholder="Filter packages"
+                autocomplete="off"
+                autofocus>
+            <select class="form-select filter-field" aria-label="Filter by...">
+                <option value="all" selected disabled hidden>Filter by..</option>
+                <option value="all">All fields</option>
+                <optgroup label="Specific field...">
+                    <option value="name">Name</option>
+                                        <option value="description">Description</option>
+                                        <option value="type">Type</option>
+                                        <option value="keywords">Keywords</option>
+                                        <option value="homepage">Homepage</option>
+                                        <option value="license">License</option>
+                                        <option value="authors">Authors</option>
+                                        <option value="support">Support</option>
+                                        <option value="releases">Releases</option>
+                                        <option value="required-by">Required by</option>
+                                    </optgroup>
+            </select>
+            <div class="input-group-append">
+                <button
+                    class="btn btn-outline-secondary d-none toggle-settings"
+                    type="button"
+                    aria-pressed="false"
+                    aria-label="Toggle settings"
+                    title="Toggle settings"
+                    aria-expanded="false"
+                    aria-controls="package-filter-settings"
+                >
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" role="img">
+                        <path d="M11.998 7.66A4.339 4.339 0 007.661 12a4.342 4.342 0 004.337 4.34A4.33 4.33 0 0016.323 12a4.327 4.327 0 00-4.325-4.34zm8.697 6.833l-.782 1.883 1.395 2.739.184.362-1.933 1.933-3.173-1.498-1.883.773-.956 2.927-.122.388h-2.733l-1.183-3.303-1.883-.777-2.743 1.391-.362.181-1.933-1.932 1.497-3.174-.776-1.882-2.921-.954L0 13.425v-2.732L3.306 9.51l.775-1.88-1.39-2.745-.183-.36 1.93-1.93L7.615 4.09l1.88-.778.956-2.924.123-.388h2.732l1.183 3.307 1.879.778 2.744-1.392.365-.184 1.931 1.93-1.496 3.172.773 1.885 2.93.955.385.123v2.73l-3.305 1.189z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </form>
+    <form id="package-filter-settings" class="my-3 card settings">
+        <div class="card-body">
+            <div class="form-group">
+                <p class="h6">Default package &quot;filter by&quot; field:</p>
+                <div class="form-check form-check-inline">
+                    <input
+                        id="package-filter-last"
+                        class="form-check-input"
+                        type="radio"
+                        name="default-filter"
+                        value="all"
+                        checked>
+                    <label class="form-check-label" for="package-filter-last">Search in all fields</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input
+                        id="package-filter-recent"
+                        class="form-check-input"
+                        type="radio"
+                        name="default-filter"
+                        value="recent">
+                    <label class="form-check-label" for="package-filter-recent">Most recently selected field</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input
+                        id="package-filter-custom"
+                        class="form-check-input"
+                        type="radio"
+                        name="default-filter"
+                        value="custom">
+                    <label class="form-check-label" for="package-filter-custom">Use this field:</label>
+                    <select class="custom-select ml-2 default-filter-field" aria-label="Default filter field">
+                        <option value="all" selected disabled hidden>Select field...</option>
+                        <option value="name">Name</option>
+                                                <option value="description">Description</option>
+                                                <option value="type">Type</option>
+                                                <option value="keywords">Keywords</option>
+                                                <option value="homepage">Homepage</option>
+                                                <option value="license">License</option>
+                                                <option value="authors">Authors</option>
+                                                <option value="support">Support</option>
+                                                <option value="releases">Releases</option>
+                                                <option value="required-by">Required by</option>
+                                            </select>
+                </div>
+            </div>
+            <div class="form-group mb-0">
+                <p class="h6">Fields to display on packages:</p>
+                <div class="form-check form-check-inline">
+                    <button
+                        id="toggle-field-all"
+                        class="btn btn-sm btn-primary"
+                        disabled>Show All</button>
+                </div>
+                                <div class="form-check form-check-inline">
+                    <input
+                        id="toggle-field-description"
+                        class="form-check-input toggle-field"
+                        type="checkbox"
+                        value="description"
+                        checked>
+                    <label class="form-check-label" for="toggle-field-description">Description</label>
+                </div>
+                                <div class="form-check form-check-inline">
+                    <input
+                        id="toggle-field-type"
+                        class="form-check-input toggle-field"
+                        type="checkbox"
+                        value="type"
+                        checked>
+                    <label class="form-check-label" for="toggle-field-type">Type</label>
+                </div>
+                                <div class="form-check form-check-inline">
+                    <input
+                        id="toggle-field-keywords"
+                        class="form-check-input toggle-field"
+                        type="checkbox"
+                        value="keywords"
+                        checked>
+                    <label class="form-check-label" for="toggle-field-keywords">Keywords</label>
+                </div>
+                                <div class="form-check form-check-inline">
+                    <input
+                        id="toggle-field-homepage"
+                        class="form-check-input toggle-field"
+                        type="checkbox"
+                        value="homepage"
+                        checked>
+                    <label class="form-check-label" for="toggle-field-homepage">Homepage</label>
+                </div>
+                                <div class="form-check form-check-inline">
+                    <input
+                        id="toggle-field-license"
+                        class="form-check-input toggle-field"
+                        type="checkbox"
+                        value="license"
+                        checked>
+                    <label class="form-check-label" for="toggle-field-license">License</label>
+                </div>
+                                <div class="form-check form-check-inline">
+                    <input
+                        id="toggle-field-authors"
+                        class="form-check-input toggle-field"
+                        type="checkbox"
+                        value="authors"
+                        checked>
+                    <label class="form-check-label" for="toggle-field-authors">Authors</label>
+                </div>
+                                <div class="form-check form-check-inline">
+                    <input
+                        id="toggle-field-support"
+                        class="form-check-input toggle-field"
+                        type="checkbox"
+                        value="support"
+                        checked>
+                    <label class="form-check-label" for="toggle-field-support">Support</label>
+                </div>
+                                <div class="form-check form-check-inline">
+                    <input
+                        id="toggle-field-releases"
+                        class="form-check-input toggle-field"
+                        type="checkbox"
+                        value="releases"
+                        checked>
+                    <label class="form-check-label" for="toggle-field-releases">Releases</label>
+                </div>
+                                <div class="form-check form-check-inline">
+                    <input
+                        id="toggle-field-required-by"
+                        class="form-check-input toggle-field"
+                        type="checkbox"
+                        value="required-by"
+                        checked>
+                    <label class="form-check-label" for="toggle-field-required-by">Required by</label>
+                </div>
+                            </div>
+        </div>
+    </form>
+
+    <div id="repo-help" class="my-3">
+        <p class="small">
+            This is a private Composer repository.
+            To use it, you have to <a
+                title="Check how to add this repository to your project"
+                href="#repo-config"
+                aria-expanded="false"
+                aria-controls="repo-config"
+            >add this repository</a> to your <code>composer.json</code> file.
+        </p>
+
+        <div id="repo-config" class="my-3 card card-outline">
+            <div class="card-body">
+                <h2 class="card-title h5">Setting up this repository in your projects</h2>
+                <p>
+                    Add this <a href="https://getcomposer.org/" title="Visit getcomposer.org">Composer</a>
+                    repository to your project's <code>composer.json</code>
+                    file, then you can require these private packages just like you would with
+                    one from <a href="https://packagist.org">Packagist</a>.
+                </p>
+                <pre class="file my-3">{
+  "repositories": [{
+    "type": "composer",
+    "url": "https://cehlers88.github.io/satis"
+  }]
+}</pre>
+            <p>Click on an individual package's release version to get a snippet of code for your project's dependencies.</p>
+            <p class="small mb-0">Read more on <a href="https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md">how to handle composer private packages</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="package-list">
+                    
+<div class="card border-primary mb-3">
+    <div id="cehlers88/analytics-calendar-bundle" class="card-header field-name filter-by text-bg-primary">
+        <a href="#cehlers88/analytics-calendar-bundle" class="text-reset">
+            <svg class="octicon-link" width="16" height="16">
+                <use xlink:href="#octicon-link"></use>
+            </svg>
+            cehlers88/analytics-calendar-bundle
+        </a>
+
+            </div>
+
+    <div class="card-body">
+                <p class="field-description filter-by">Calendar Bundle for Analytics</p>
+        
+        <dl class="row mb-0">
+            <dt class="col-sm-3 col-md-2"></dt>
+            <dd class="col-sm-9 col-md-10"></dd>
+
+                    <dt class="col-sm-3 col-md-2 field-type">Type</dt>
+            <dd class="col-sm-9 col-md-10 field-type filter-by">symfony-bundle</dd>
+        
+        
+        
+                    <dt class="col-sm-3 col-md-2 field-license">License</dt>
+            <dd class="col-sm-9 col-md-10 field-license filter-by">proprietary</dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-authors">Authors</dt>
+            <dd class="col-sm-9 col-md-10 field-authors filter-by">
+                christoph ehlers            </dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-support">Support</dt>
+            <dd class="col-sm-9 col-md-10 field-support filter-by">
+                <ul class="list-unstyled m-0">
+                                        <li>Source: <a href="https://github.com/cEhlers88/AnalyticsCalendarBundle/tree/v1.1.6">https://github.com/cEhlers88/AnalyticsCalendarBundle/tree/v1.1.6</a></li>
+                                        <li>Issues: <a href="https://github.com/cEhlers88/AnalyticsCalendarBundle/issues">https://github.com/cEhlers88/AnalyticsCalendarBundle/issues</a></li>
+                                    </ul>
+            </dd>
+        
+            <dt class="col-sm-3 col-md-2 field-releases">Releases</dt>
+            <dd class="col-sm-9 col-md-10 field-releases filter-by" data-package-name="cehlers88/analytics-calendar-bundle">
+                
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-50fed45419895b5c25f311649040a07c5d9ec0e8-zip-452578.zip" title="dist-reference: 50fed45419895b5c25f311649040a07c5d9ec0e8">v1.1.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-c158d2ca836a0596f6661f4020d9d9089cefdef4-zip-72f758.zip" title="dist-reference: c158d2ca836a0596f6661f4020d9d9089cefdef4">v1.1.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-81b5074cdccbc7ac6f2003c27a4921d2f0607458-zip-739364.zip" title="dist-reference: 81b5074cdccbc7ac6f2003c27a4921d2f0607458">v1.1.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-685e4a9f79c3a99697e81b4a9c023f390ac1ab4a-zip-0f847d.zip" title="dist-reference: 685e4a9f79c3a99697e81b4a9c023f390ac1ab4a">v1.1.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-25c9ad74d7ab65b63f6fc56e9644aefc2b7717d9-zip-974ac6.zip" title="dist-reference: 25c9ad74d7ab65b63f6fc56e9644aefc2b7717d9">v1.1.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-1c7b30d3c24ec22886a2da79cfa503d483d1719d-zip-544c24.zip" title="dist-reference: 1c7b30d3c24ec22886a2da79cfa503d483d1719d">v1.1.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-4e2f2a382f27a79d35b29553affeefd6e766e17c-zip-a1856f.zip" title="dist-reference: 4e2f2a382f27a79d35b29553affeefd6e766e17c">v1.1.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-ef552a763275bd92deefa588f4bb096aa348e794-zip-44321b.zip" title="dist-reference: ef552a763275bd92deefa588f4bb096aa348e794">v1.0.13</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-771a2eaf1c340b7789dc52e1c926ea140ccac580-zip-c89ba7.zip" title="dist-reference: 771a2eaf1c340b7789dc52e1c926ea140ccac580">v1.0.12</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-f97241f4e468f6370d09805986e8e20b66f14a6c-zip-470754.zip" title="dist-reference: f97241f4e468f6370d09805986e8e20b66f14a6c">v1.0.11</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-a60d164ed43d9f846de34b51d0f441a4a3656c64-zip-6acb60.zip" title="dist-reference: a60d164ed43d9f846de34b51d0f441a4a3656c64">v1.0.10</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-623d9a98ffe1f018d789c6e541cfb7fac3f4c957-zip-a22e90.zip" title="dist-reference: 623d9a98ffe1f018d789c6e541cfb7fac3f4c957">v1.0.9</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-0b800f0df0c5462497818da4397953dd89d7c45f-zip-2cf971.zip" title="dist-reference: 0b800f0df0c5462497818da4397953dd89d7c45f">v1.0.8</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-6f0ebfa97e60bc4ea16b99c55097363858e72af2-zip-60ed28.zip" title="dist-reference: 6f0ebfa97e60bc4ea16b99c55097363858e72af2">v1.0.7</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-e5fcbabaf4be9649a6bccc24a65f699ee2aec3fa-zip-155506.zip" title="dist-reference: e5fcbabaf4be9649a6bccc24a65f699ee2aec3fa">v1.0.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-49a087667eb045133b8c5514a5cb621ac2eea36f-zip-831b30.zip" title="dist-reference: 49a087667eb045133b8c5514a5cb621ac2eea36f">v1.0.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-916f3c1d6fc79c40a52de293e61458a1d5ff1549-zip-5536c2.zip" title="dist-reference: 916f3c1d6fc79c40a52de293e61458a1d5ff1549">v1.0.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-cb32102dc1da41adb79e5ae194ff410dd4dfd1b9-zip-1ebfd0.zip" title="dist-reference: cb32102dc1da41adb79e5ae194ff410dd4dfd1b9">v1.0.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-da82264eb40178c298be4d8f642593bb316a7308-zip-b712ab.zip" title="dist-reference: da82264eb40178c298be4d8f642593bb316a7308">v1.0.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-c3041291ecf2c2939bef7fe6657dc2afae655355-zip-7e58cc.zip" title="dist-reference: c3041291ecf2c2939bef7fe6657dc2afae655355">v1.0.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-1cb709914b9b5fa7a8c59289c9a7e20c4023db4f-zip-ab8c28.zip" title="dist-reference: 1cb709914b9b5fa7a8c59289c9a7e20c4023db4f">v1.0.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-211b7288bac3c8de0633d6f0f68ce0d3fc05fa54-zip-22f6fd.zip" title="dist-reference: 211b7288bac3c8de0633d6f0f68ce0d3fc05fa54">dev-release-please--branches--main</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-fcad0f9c0c1efb01ab12222318655098651be91e-zip-e4de82.zip" title="dist-reference: fcad0f9c0c1efb01ab12222318655098651be91e, branch-alias: 1.x-dev">dev-main</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-f76ee36bde9e8309e04f79ef2befda6878e6d471-zip-6182ba.zip" title="dist-reference: f76ee36bde9e8309e04f79ef2befda6878e6d471">dev-renovate/cehlers88-analytics-core-1.x-lockfile</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-b76764099694e40d3c766c6d1463cc638b45cd4c-zip-257e90.zip" title="dist-reference: b76764099694e40d3c766c6d1463cc638b45cd4c">dev-copilot/create-documentation</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-4ced0571b1cadfa1ee7b8eac1782fc4fcb72d1d4-zip-393587.zip" title="dist-reference: 4ced0571b1cadfa1ee7b8eac1782fc4fcb72d1d4">dev-copilot/demonstrate-js-usage-symfony</a>            </dd>
+
+        
+                </dl>
+    </div>
+</div>
+                    
+<div class="card border-primary mb-3">
+    <div id="cehlers88/analytics-core" class="card-header field-name filter-by text-bg-primary">
+        <a href="#cehlers88/analytics-core" class="text-reset">
+            <svg class="octicon-link" width="16" height="16">
+                <use xlink:href="#octicon-link"></use>
+            </svg>
+            cehlers88/analytics-core
+        </a>
+
+            </div>
+
+    <div class="card-body">
+                <p class="field-description filter-by">Analytics core</p>
+        
+        <dl class="row mb-0">
+            <dt class="col-sm-3 col-md-2"></dt>
+            <dd class="col-sm-9 col-md-10"></dd>
+
+                    <dt class="col-sm-3 col-md-2 field-type">Type</dt>
+            <dd class="col-sm-9 col-md-10 field-type filter-by">library</dd>
+        
+        
+        
+                    <dt class="col-sm-3 col-md-2 field-license">License</dt>
+            <dd class="col-sm-9 col-md-10 field-license filter-by">proprietary</dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-authors">Authors</dt>
+            <dd class="col-sm-9 col-md-10 field-authors filter-by">
+                christoph ehlers            </dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-support">Support</dt>
+            <dd class="col-sm-9 col-md-10 field-support filter-by">
+                <ul class="list-unstyled m-0">
+                                        <li>Source: <a href="https://github.com/cEhlers88/AnalyticsCore/tree/v1.38.6">https://github.com/cEhlers88/AnalyticsCore/tree/v1.38.6</a></li>
+                                        <li>Issues: <a href="https://github.com/cEhlers88/AnalyticsCore/issues">https://github.com/cEhlers88/AnalyticsCore/issues</a></li>
+                                    </ul>
+            </dd>
+        
+            <dt class="col-sm-3 col-md-2 field-releases">Releases</dt>
+            <dd class="col-sm-9 col-md-10 field-releases filter-by" data-package-name="cehlers88/analytics-core">
+                
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-fdbd2102b52254bd04388f803663c9497f7801c9-zip-2a1e82.zip" title="dist-reference: fdbd2102b52254bd04388f803663c9497f7801c9">v1.38.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-bc111c754d4af126c9a9e99329a75aee1b56a1ba-zip-5532d2.zip" title="dist-reference: bc111c754d4af126c9a9e99329a75aee1b56a1ba">v1.38.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-9d6cf57edaae3085de601d5f30c5884df964ceb4-zip-f3c42e.zip" title="dist-reference: 9d6cf57edaae3085de601d5f30c5884df964ceb4">v1.38.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-6d66badc1915ee5d98624a09f1be6c5d9599c396-zip-c35d3a.zip" title="dist-reference: 6d66badc1915ee5d98624a09f1be6c5d9599c396">v1.38.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-867e54c7b353d50a0514eb2b5eae3a6f8ad16abd-zip-d39de8.zip" title="dist-reference: 867e54c7b353d50a0514eb2b5eae3a6f8ad16abd">v1.38.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-6e06e31e11970b20323055d4b325b00fae1a3961-zip-03f01a.zip" title="dist-reference: 6e06e31e11970b20323055d4b325b00fae1a3961">v1.38.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-c46a0764d82b51683daa35b787225c28eccfb78c-zip-0724da.zip" title="dist-reference: c46a0764d82b51683daa35b787225c28eccfb78c">v1.38.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-b7392314ef569eae1af12bd4c45f5054f726cd11-zip-be03d0.zip" title="dist-reference: b7392314ef569eae1af12bd4c45f5054f726cd11">v1.37.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-1b4316a5d246a12272c6867e9c1bb4c01791f5ab-zip-1702b8.zip" title="dist-reference: 1b4316a5d246a12272c6867e9c1bb4c01791f5ab">v1.37.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-6e0313c8095bbfb7e10abd0df15e7da175a3f8f8-zip-4138ab.zip" title="dist-reference: 6e0313c8095bbfb7e10abd0df15e7da175a3f8f8">v1.36.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-9b69d2e7ad81e61dde4efb14d0174c8acc1ae55c-zip-097aab.zip" title="dist-reference: 9b69d2e7ad81e61dde4efb14d0174c8acc1ae55c">v1.35.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-e19d4409714123634ea1dcb694b247c2c1583208-zip-dc5b5c.zip" title="dist-reference: e19d4409714123634ea1dcb694b247c2c1583208">v1.34.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-c572cc99a88d443e09a5a755818fcd1f91400043-zip-d02dc5.zip" title="dist-reference: c572cc99a88d443e09a5a755818fcd1f91400043">v1.33.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-776a4d4c63af3afc97901c91d6e0c7d6fabf737c-zip-ecfcaa.zip" title="dist-reference: 776a4d4c63af3afc97901c91d6e0c7d6fabf737c">v1.32.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-4f27697e6b2767b3b5c3ca91171ca0a01d372419-zip-0bbb6a.zip" title="dist-reference: 4f27697e6b2767b3b5c3ca91171ca0a01d372419">v1.31.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-deb5fa2ee954d1971584e2e335519b67f10281e7-zip-c65adf.zip" title="dist-reference: deb5fa2ee954d1971584e2e335519b67f10281e7">v1.30.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-064293c22fd7091d913c6391b72f19c8d0fd0cea-zip-2ad306.zip" title="dist-reference: 064293c22fd7091d913c6391b72f19c8d0fd0cea">v1.29.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-b66f26aef5c06d7fd32522942e8ee5ef068e3152-zip-5748bb.zip" title="dist-reference: b66f26aef5c06d7fd32522942e8ee5ef068e3152">v1.28.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-eb2b362bce05dae5204c753b7fc350768085f62b-zip-3c440e.zip" title="dist-reference: eb2b362bce05dae5204c753b7fc350768085f62b">v1.28.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-f08e8cd04d5467e4e73249abfe336195aea98d93-zip-744ad2.zip" title="dist-reference: f08e8cd04d5467e4e73249abfe336195aea98d93">v1.28.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-515c7bf5c3836f5b5e148f286c0e62fa53074ba5-zip-ba7e29.zip" title="dist-reference: 515c7bf5c3836f5b5e148f286c0e62fa53074ba5">v1.28.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-0ef94d829f8b316b814054ea9ab808c3919b6066-zip-92cf32.zip" title="dist-reference: 0ef94d829f8b316b814054ea9ab808c3919b6066">v1.28.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-ebe7ad166974ae0c9c9020c1a89b6a7170befd6b-zip-8a3b6c.zip" title="dist-reference: ebe7ad166974ae0c9c9020c1a89b6a7170befd6b">v1.28.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-30dde6f910442b42974df78c61d684746a5ffc4f-zip-4e4b9f.zip" title="dist-reference: 30dde6f910442b42974df78c61d684746a5ffc4f">v1.27.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-64eedc06ec93475e265d89465d074a312efa650c-zip-85f3c3.zip" title="dist-reference: 64eedc06ec93475e265d89465d074a312efa650c">v1.26.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-516c94d96ba1cc19f521f6f27a050ae344bfc87c-zip-6fef08.zip" title="dist-reference: 516c94d96ba1cc19f521f6f27a050ae344bfc87c">v1.25.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-01dd046e2a5aff6b0c8991c3ee5f285dc7f7e00c-zip-dd384c.zip" title="dist-reference: 01dd046e2a5aff6b0c8991c3ee5f285dc7f7e00c">v1.25.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-8b6854b7ce44cc93f33a9f24be0a416b8aa2dbe4-zip-f23a68.zip" title="dist-reference: 8b6854b7ce44cc93f33a9f24be0a416b8aa2dbe4">v1.24.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-ed99cac392692d487dab9c022052a840f04700f9-zip-d72396.zip" title="dist-reference: ed99cac392692d487dab9c022052a840f04700f9">v1.23.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-d239a6f5ba1c2c4f4e6080402019dff3656004b8-zip-8c9801.zip" title="dist-reference: d239a6f5ba1c2c4f4e6080402019dff3656004b8">v1.23.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-a062bd605a73fda05d6cd5585fdec9addb4241b0-zip-525920.zip" title="dist-reference: a062bd605a73fda05d6cd5585fdec9addb4241b0">v1.22.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-a7aa334ac2a028c3d67600b99af6a75521ef7dfc-zip-f9721b.zip" title="dist-reference: a7aa334ac2a028c3d67600b99af6a75521ef7dfc">v1.22.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-00e8076602b0a07c0390f9b5f6cce1be1715cfae-zip-4727ce.zip" title="dist-reference: 00e8076602b0a07c0390f9b5f6cce1be1715cfae">v1.21.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-254a28422068c66d75cd9f7e9d7972ae6f483887-zip-d0ad82.zip" title="dist-reference: 254a28422068c66d75cd9f7e9d7972ae6f483887">v1.21.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-b0cfe6d501577972270bcd16c6c5e969bdbe227f-zip-d350ad.zip" title="dist-reference: b0cfe6d501577972270bcd16c6c5e969bdbe227f">v1.21.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-61581a34467601195c455d559a38e48946cb4404-zip-4cdc97.zip" title="dist-reference: 61581a34467601195c455d559a38e48946cb4404">v1.21.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-09d2596662acf962bd21f5c48736d9363bc9ac25-zip-cfc8d2.zip" title="dist-reference: 09d2596662acf962bd21f5c48736d9363bc9ac25">v1.20.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-5fe02fcc1cccdc2540f4b925102bc46ef408b815-zip-d57fcf.zip" title="dist-reference: 5fe02fcc1cccdc2540f4b925102bc46ef408b815">v1.19.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-803948a6b7b7d2bd1bcd003265ca6c473ffb3478-zip-bf415c.zip" title="dist-reference: 803948a6b7b7d2bd1bcd003265ca6c473ffb3478">v1.18.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-7b346a7aab40cd1c64e8587a8bc407cdd21c32b2-zip-4a4591.zip" title="dist-reference: 7b346a7aab40cd1c64e8587a8bc407cdd21c32b2">v1.18.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-93057e4fd8b64c127d1dc9f175f4cb1a16938ca3-zip-38dd54.zip" title="dist-reference: 93057e4fd8b64c127d1dc9f175f4cb1a16938ca3">v1.18.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-117c9e6ea9a18a84df8e9e34e94069a49691070c-zip-5c3ef8.zip" title="dist-reference: 117c9e6ea9a18a84df8e9e34e94069a49691070c">v1.17.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-34fc9357b6cfa37cae56980bc20f45a30a503896-zip-dd8e1e.zip" title="dist-reference: 34fc9357b6cfa37cae56980bc20f45a30a503896">v1.16.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-56b5ce7ea1c23c25e15787bb56150e25353d6bd1-zip-b134f1.zip" title="dist-reference: 56b5ce7ea1c23c25e15787bb56150e25353d6bd1">v1.16.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-bd1aac7d530e52f21787c0ba855b15bafe57dcd3-zip-46a4c3.zip" title="dist-reference: bd1aac7d530e52f21787c0ba855b15bafe57dcd3">v1.15.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-5fa6ba5cac6bc5bdabad0ac9c7f9030f240aa1f8-zip-257642.zip" title="dist-reference: 5fa6ba5cac6bc5bdabad0ac9c7f9030f240aa1f8">v1.14.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-4ec97ca8336c475edebbdfa3f70d702426def5f8-zip-05337a.zip" title="dist-reference: 4ec97ca8336c475edebbdfa3f70d702426def5f8">v1.13.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-e7c77e83a58c7ee09e1d5b6c7f5263d5005ab3be-zip-edfff0.zip" title="dist-reference: e7c77e83a58c7ee09e1d5b6c7f5263d5005ab3be">v1.12.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-ccb226cd0b045375d7d07e6e48f45dcad65b3ac1-zip-acc8f1.zip" title="dist-reference: ccb226cd0b045375d7d07e6e48f45dcad65b3ac1">v1.11.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-4449f8836d12ff9ab78f2c38577c0f66f9d7de04-zip-a8e402.zip" title="dist-reference: 4449f8836d12ff9ab78f2c38577c0f66f9d7de04">v1.10.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-7ca12659e6cd5fb794b5c1a7eaa37920dfb84d82-zip-f48174.zip" title="dist-reference: 7ca12659e6cd5fb794b5c1a7eaa37920dfb84d82">v1.10.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-ee9714fab78c9c8f7c105b5f161c422f02496574-zip-96f5df.zip" title="dist-reference: ee9714fab78c9c8f7c105b5f161c422f02496574">v1.9.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-51ea71f99da4375c3b1928b8b79d0e178e57bbf0-zip-54fee1.zip" title="dist-reference: 51ea71f99da4375c3b1928b8b79d0e178e57bbf0">v1.8.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-d92478bcd58c0c77989355bf6abdd1e9e022f33a-zip-b5665f.zip" title="dist-reference: d92478bcd58c0c77989355bf6abdd1e9e022f33a">v1.7.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-21bcc9f0fca471b45920b22c055f2bcb5a8d78d7-zip-608650.zip" title="dist-reference: 21bcc9f0fca471b45920b22c055f2bcb5a8d78d7">v1.6.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-7485415c6b408db3c0149a25eac5214907ea1681-zip-11c4b5.zip" title="dist-reference: 7485415c6b408db3c0149a25eac5214907ea1681">v1.5.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-5025d72450405b8c9fa59e2eb6af657fb42aeb30-zip-fb56f4.zip" title="dist-reference: 5025d72450405b8c9fa59e2eb6af657fb42aeb30">v1.4.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-16717f9a23db02ed4afd3b3a83810dc492e59a7b-zip-dc8582.zip" title="dist-reference: 16717f9a23db02ed4afd3b3a83810dc492e59a7b">v1.4.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-43adcf9a8acde6f48805ab1254c6519df4b7f1af-zip-4d4a99.zip" title="dist-reference: 43adcf9a8acde6f48805ab1254c6519df4b7f1af">v1.3.13</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-cc9383b7ad4e98b7cc476ca8d5ffc98db1a727a2-zip-d74cc6.zip" title="dist-reference: cc9383b7ad4e98b7cc476ca8d5ffc98db1a727a2">v1.3.12</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-de2ecf61c0fb66ac18d6c6abfa13de520e07b548-zip-c92ac4.zip" title="dist-reference: de2ecf61c0fb66ac18d6c6abfa13de520e07b548">v1.3.11</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-fb9ea552102943f7cd0fc82d16873430a584cb06-zip-bc993e.zip" title="dist-reference: fb9ea552102943f7cd0fc82d16873430a584cb06">v1.3.10</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-73adec22320bdf0d0e5ddddec187bcef6664ccfe-zip-cb5080.zip" title="dist-reference: 73adec22320bdf0d0e5ddddec187bcef6664ccfe">v1.3.9</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-f653fa5c18a63edf9366fb9d67f04dea12b893c1-zip-6aa0c9.zip" title="dist-reference: f653fa5c18a63edf9366fb9d67f04dea12b893c1">v1.3.8</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-d110ba4f6abb6f1f5bfdf9115955c95a7b2ecaa5-zip-d3f73e.zip" title="dist-reference: d110ba4f6abb6f1f5bfdf9115955c95a7b2ecaa5">v1.3.7</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-744719beb35389e86b372510a5e6dc7286c93eb3-zip-0e7666.zip" title="dist-reference: 744719beb35389e86b372510a5e6dc7286c93eb3">v1.3.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-7c2c6061d581dfc35296bcb545354320aa61d792-zip-743158.zip" title="dist-reference: 7c2c6061d581dfc35296bcb545354320aa61d792">v1.3.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-9e9f9305b6070d4c53bea244a55d81bd5a509617-zip-9d6c1d.zip" title="dist-reference: 9e9f9305b6070d4c53bea244a55d81bd5a509617">v1.3.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-e1e2bd36e9ec23923ed91ae76f3614cd1d143ff1-zip-ce49ea.zip" title="dist-reference: e1e2bd36e9ec23923ed91ae76f3614cd1d143ff1">v1.3.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-59afb19c32b93a2a4b61a29ae18fa7834ff37f88-zip-0b6585.zip" title="dist-reference: 59afb19c32b93a2a4b61a29ae18fa7834ff37f88">v1.3.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-6c3ea12b8e5d56a7c5a0e501c4b300f4caf4e4cd-zip-0e65e0.zip" title="dist-reference: 6c3ea12b8e5d56a7c5a0e501c4b300f4caf4e4cd">v1.3.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-cf6eefe04e79831674feb308cdfc521bdcc1b2d8-zip-7f593d.zip" title="dist-reference: cf6eefe04e79831674feb308cdfc521bdcc1b2d8">v1.3.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-3b2326a6e0c3a5c60e80e80577e928d0a285e0ec-zip-a3ec0c.zip" title="dist-reference: 3b2326a6e0c3a5c60e80e80577e928d0a285e0ec">v1.2.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-397453d842d4c4e60685a720f0f6bda5d5a38a6c-zip-697600.zip" title="dist-reference: 397453d842d4c4e60685a720f0f6bda5d5a38a6c">v1.1.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-11b273f645d866855187696994ddbe8c80eb43ac-zip-723b7f.zip" title="dist-reference: 11b273f645d866855187696994ddbe8c80eb43ac">v1.1.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-77d3ac7960277ab1fc52d846cd465634ee4f84d2-zip-363564.zip" title="dist-reference: 77d3ac7960277ab1fc52d846cd465634ee4f84d2">v1.1.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-ea213d8c95236ce32cb0e849bc8c0ec965690fb7-zip-b79354.zip" title="dist-reference: ea213d8c95236ce32cb0e849bc8c0ec965690fb7">v1.1.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-7fa0c9f74764c4ca776bd7d24a056b87f94b7476-zip-e917eb.zip" title="dist-reference: 7fa0c9f74764c4ca776bd7d24a056b87f94b7476">v1.0.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-875d53990889b993c3dcc81649e50baeb6465030-zip-ac7548.zip" title="dist-reference: 875d53990889b993c3dcc81649e50baeb6465030">v0.5.11</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-107e12a7e7fbb8d5fb6fdeea20bf3b514f0dea4e-zip-b75517.zip" title="dist-reference: 107e12a7e7fbb8d5fb6fdeea20bf3b514f0dea4e">v0.5.10</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-242f2198706dee1fa5fd69d76841ea4eacca248b-zip-b4d0dd.zip" title="dist-reference: 242f2198706dee1fa5fd69d76841ea4eacca248b">v0.5.9</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-877f3dcaa3e9d0891faf35db28277990e07a616f-zip-933454.zip" title="dist-reference: 877f3dcaa3e9d0891faf35db28277990e07a616f">v0.5.8</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-c9dba90b7df12ea4fb2b12313b30db0e1eb8244a-zip-00878c.zip" title="dist-reference: c9dba90b7df12ea4fb2b12313b30db0e1eb8244a">v0.5.7</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-b80a9332b716d822ae0752d1429d78e769ac4b31-zip-1c9b59.zip" title="dist-reference: b80a9332b716d822ae0752d1429d78e769ac4b31">v0.5.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-2867ee231075ed22754a5f556aa40e8d32ba5ab3-zip-b62e1f.zip" title="dist-reference: 2867ee231075ed22754a5f556aa40e8d32ba5ab3">v0.5.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-293e81dbf4ba21f9e8ac80fdc5f1451ffaaecefb-zip-8e0bb3.zip" title="dist-reference: 293e81dbf4ba21f9e8ac80fdc5f1451ffaaecefb">v0.5.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-f1467d2ca7803c4cb81cc21705f794fef62ca358-zip-fd4e27.zip" title="dist-reference: f1467d2ca7803c4cb81cc21705f794fef62ca358">v0.5.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-19191b5aa3ad51c95b834d733d8cfdf7cd52dc43-zip-ce5dbd.zip" title="dist-reference: 19191b5aa3ad51c95b834d733d8cfdf7cd52dc43">v0.5.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-4496552ab1b869ff140fa74d03de651137746993-zip-e780b3.zip" title="dist-reference: 4496552ab1b869ff140fa74d03de651137746993">v0.5.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-b87ef703f8e233fd04451383ee0c1897fc5e2755-zip-2cc398.zip" title="dist-reference: b87ef703f8e233fd04451383ee0c1897fc5e2755">v0.5.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-798cc1f96e7a7f9a085b22c394bfdc1417606ab3-zip-c2fa5f.zip" title="dist-reference: 798cc1f96e7a7f9a085b22c394bfdc1417606ab3">v0.4.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-8de68675aed45f9a696d534ec61c45910be99bb2-zip-d9bc85.zip" title="dist-reference: 8de68675aed45f9a696d534ec61c45910be99bb2">v0.4.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-646486d242b709bd590d55030d8901677408db32-zip-fbe7b3.zip" title="dist-reference: 646486d242b709bd590d55030d8901677408db32">v0.4.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-e7f308a639eebbbf9eb53368e061c76071125896-zip-586b09.zip" title="dist-reference: e7f308a639eebbbf9eb53368e061c76071125896">v0.3.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-1964c4a3c80ad22ea697c89a3e31743f39177aaa-zip-e128c9.zip" title="dist-reference: 1964c4a3c80ad22ea697c89a3e31743f39177aaa">v0.3.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-d62c117c406b361bace17292863f1e525693e649-zip-1014d9.zip" title="dist-reference: d62c117c406b361bace17292863f1e525693e649">v0.2.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-f6848514160446a9d85b0e968e4e7b936cb25965-zip-ffd8d0.zip" title="dist-reference: f6848514160446a9d85b0e968e4e7b936cb25965">v0.2.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-5389d5182b88564aab31c9e028d27c4ff56416eb-zip-3892a2.zip" title="dist-reference: 5389d5182b88564aab31c9e028d27c4ff56416eb">v0.1.8</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-a0e91e978eb073159c38382d4fdcd2f29d4753d0-zip-8a9cca.zip" title="dist-reference: a0e91e978eb073159c38382d4fdcd2f29d4753d0">v0.1.7</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-9feff4bd6095efd4660ec81a1379b1932ed2c530-zip-f908ca.zip" title="dist-reference: 9feff4bd6095efd4660ec81a1379b1932ed2c530">v0.1.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-42613cadab3271f188c2e95d486cb604d6c89d38-zip-532275.zip" title="dist-reference: 42613cadab3271f188c2e95d486cb604d6c89d38">v0.1.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-f4e362a61553ebfd50e66e7f3374ded039c1bd42-zip-130435.zip" title="dist-reference: f4e362a61553ebfd50e66e7f3374ded039c1bd42">v0.1.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-438010b331a2cef763f11b85d41735061d04b65c-zip-64fe7c.zip" title="dist-reference: 438010b331a2cef763f11b85d41735061d04b65c">v0.1.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-d7399a7604e707761f6549279257b164c59b8970-zip-ad9c48.zip" title="dist-reference: d7399a7604e707761f6549279257b164c59b8970">dev-11-error-while-update-workers-runchain</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-a3f72147fab623fa5503b588f5dd3989c111315e-zip-1136e7.zip" title="dist-reference: a3f72147fab623fa5503b588f5dd3989c111315e">dev-renovate/phpunit-phpunit-13.x-lockfile</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-64bf95e742ddd90283fad1413533a8fb7822536e-zip-a707fa.zip" title="dist-reference: 64bf95e742ddd90283fad1413533a8fb7822536e">dev-release-please--branches--main</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-fdbd2102b52254bd04388f803663c9497f7801c9-zip-2a1e82.zip" title="dist-reference: fdbd2102b52254bd04388f803663c9497f7801c9, branch-alias: 1.x-dev">dev-main</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-b668ac025d43f3e6aa129b79b37e792a14ca3190-zip-2d44de.zip" title="dist-reference: b668ac025d43f3e6aa129b79b37e792a14ca3190">dev-copilot/add-temporary-tracking-buffer</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-d4517ddb652150bf6e1878846b60fe4fad959ff9-zip-55ce5c.zip" title="dist-reference: d4517ddb652150bf6e1878846b60fe4fad959ff9">dev-copilot/add-index-for-timestamp-field</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-c37c29ca4872e2b30fb28e2ca0424457377dd411-zip-92312e.zip" title="dist-reference: c37c29ca4872e2b30fb28e2ca0424457377dd411">dev-copilot/add-temp-shared-data-storage</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-c6dbaeaf7acac20c906ae7e937cff00b528894dc-zip-276670.zip" title="dist-reference: c6dbaeaf7acac20c906ae7e937cff00b528894dc">dev-copilot/fix-array-key-error</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-11a8b6b70f3a9e5970539ba012cc7f7a686066f3-zip-47b806.zip" title="dist-reference: 11a8b6b70f3a9e5970539ba012cc7f7a686066f3">dev-renovate/googleapis-release-please-action-5.x</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-915453021f7a04c649abdb86889e2884f37bf712-zip-3a8010.zip" title="dist-reference: 915453021f7a04c649abdb86889e2884f37bf712">dev-copilot/update-handle-user-input</a>            </dd>
+
+        
+                    <dt class="col-sm-3 col-md-2 field-required-by">Required by</dt>
+            <dd class="col-sm-9 col-md-10 field-required-by filter-by">
+                <ul class="list-unstyled m-0">
+                                        <li><a href="#cehlers88/analytics-calendar-bundle">cehlers88/analytics-calendar-bundle</a></li>
+                                        <li><a href="#cehlers88/analytics-develope-bundle">cehlers88/analytics-develope-bundle</a></li>
+                                        <li><a href="#cehlers88/analytics-documents-bundle">cehlers88/analytics-documents-bundle</a></li>
+                                        <li><a href="#cehlers88/analytics-fibu-bundle">cehlers88/analytics-fibu-bundle</a></li>
+                                        <li><a href="#cehlers88/analytics-infrastructure-bundle">cehlers88/analytics-infrastructure-bundle</a></li>
+                                    </ul>
+            </dd>
+                </dl>
+    </div>
+</div>
+                    
+<div class="card border-primary mb-3">
+    <div id="cehlers88/analytics-develope-bundle" class="card-header field-name filter-by text-bg-primary">
+        <a href="#cehlers88/analytics-develope-bundle" class="text-reset">
+            <svg class="octicon-link" width="16" height="16">
+                <use xlink:href="#octicon-link"></use>
+            </svg>
+            cehlers88/analytics-develope-bundle
+        </a>
+
+            </div>
+
+    <div class="card-body">
+                <p class="field-description filter-by">Develope Bundle for Analytics</p>
+        
+        <dl class="row mb-0">
+            <dt class="col-sm-3 col-md-2"></dt>
+            <dd class="col-sm-9 col-md-10"></dd>
+
+                    <dt class="col-sm-3 col-md-2 field-type">Type</dt>
+            <dd class="col-sm-9 col-md-10 field-type filter-by">symfony-bundle</dd>
+        
+        
+        
+                    <dt class="col-sm-3 col-md-2 field-license">License</dt>
+            <dd class="col-sm-9 col-md-10 field-license filter-by">proprietary</dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-authors">Authors</dt>
+            <dd class="col-sm-9 col-md-10 field-authors filter-by">
+                christoph ehlers            </dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-support">Support</dt>
+            <dd class="col-sm-9 col-md-10 field-support filter-by">
+                <ul class="list-unstyled m-0">
+                                        <li>Source: <a href="https://github.com/cEhlers88/AnalyticsDevelopeBundle/tree/v1.2.0">https://github.com/cEhlers88/AnalyticsDevelopeBundle/tree/v1.2.0</a></li>
+                                        <li>Issues: <a href="https://github.com/cEhlers88/AnalyticsDevelopeBundle/issues">https://github.com/cEhlers88/AnalyticsDevelopeBundle/issues</a></li>
+                                    </ul>
+            </dd>
+        
+            <dt class="col-sm-3 col-md-2 field-releases">Releases</dt>
+            <dd class="col-sm-9 col-md-10 field-releases filter-by" data-package-name="cehlers88/analytics-develope-bundle">
+                
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-e18a80e2744598b35f1b6862a4f707b6a46a7d75-zip-01c1aa.zip" title="dist-reference: e18a80e2744598b35f1b6862a4f707b6a46a7d75">v1.2.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-4576174bd4af97d8f8b1410f2e833af847dfc56b-zip-69be79.zip" title="dist-reference: 4576174bd4af97d8f8b1410f2e833af847dfc56b">v1.1.10</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-e227111d31bf2a8d55c6b418d53f8d06a66b7ad4-zip-319f11.zip" title="dist-reference: e227111d31bf2a8d55c6b418d53f8d06a66b7ad4">v1.1.9</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-eb943ca7c42b1984d7e5dd70dffda7602ca3421c-zip-c4d99a.zip" title="dist-reference: eb943ca7c42b1984d7e5dd70dffda7602ca3421c">v1.1.8</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-76dbb1ba32ac7998ecdb8a40dba997d729c9e0c6-zip-1f72b8.zip" title="dist-reference: 76dbb1ba32ac7998ecdb8a40dba997d729c9e0c6">v1.1.7</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-751087becf3cfb0a9a2f939c3bf84057a96bba26-zip-7a9a5d.zip" title="dist-reference: 751087becf3cfb0a9a2f939c3bf84057a96bba26">v1.1.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-a731a083715454b8c15e440edba4e96621067d17-zip-d06617.zip" title="dist-reference: a731a083715454b8c15e440edba4e96621067d17">v1.1.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-41b73d08ccb094c739abe0472d9a69d92e281724-zip-26420c.zip" title="dist-reference: 41b73d08ccb094c739abe0472d9a69d92e281724">v1.1.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-e001f17b3d683ac0af2f6e4304bf317ab3070f3c-zip-e9a4d6.zip" title="dist-reference: e001f17b3d683ac0af2f6e4304bf317ab3070f3c">v1.1.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-f2237212a6e7413868b30a2bbe3e12d3f01a49ca-zip-219b9e.zip" title="dist-reference: f2237212a6e7413868b30a2bbe3e12d3f01a49ca">v1.1.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-cbbc3ffd3469332827ab744b9051cb76446bd0e4-zip-34865b.zip" title="dist-reference: cbbc3ffd3469332827ab744b9051cb76446bd0e4">v1.1.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-dea7e00f65181edaf6dd3bc7b2a5d1a2250d14ee-zip-9195f5.zip" title="dist-reference: dea7e00f65181edaf6dd3bc7b2a5d1a2250d14ee">v1.1.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-18f8de75a4dfde76b446943100f64b76197ee0a1-zip-72feaf.zip" title="dist-reference: 18f8de75a4dfde76b446943100f64b76197ee0a1">v1.0.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-b665b846202a40040f1194e2908752ea234aad09-zip-9958ac.zip" title="dist-reference: b665b846202a40040f1194e2908752ea234aad09">v1.0.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-cdacd45bf6c224dc9dbf7b44b6ae0416a8cf2653-zip-ade88d.zip" title="dist-reference: cdacd45bf6c224dc9dbf7b44b6ae0416a8cf2653">v1.0.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-43a829c131965f35cc6d2778a09760c9261e0507-zip-6006ea.zip" title="dist-reference: 43a829c131965f35cc6d2778a09760c9261e0507">v0.2.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-68662411267c4d1e41523a7a8ac699379aa4d701-zip-e67939.zip" title="dist-reference: 68662411267c4d1e41523a7a8ac699379aa4d701">v0.2.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-608d5041706ba4a45756f0a6410539cad1bffc7c-zip-065a4e.zip" title="dist-reference: 608d5041706ba4a45756f0a6410539cad1bffc7c">v0.2.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-288f04268539bc9c1b10e608dc64f71ea7fb5ad6-zip-147da1.zip" title="dist-reference: 288f04268539bc9c1b10e608dc64f71ea7fb5ad6">v0.2.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-8916eb560411c649b06e0f4bcf88edda43f71601-zip-5f0c97.zip" title="dist-reference: 8916eb560411c649b06e0f4bcf88edda43f71601">v0.2.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-27ecba11c454e73f82d0fa500ba714c71b4d5709-zip-ca38f5.zip" title="dist-reference: 27ecba11c454e73f82d0fa500ba714c71b4d5709">v0.2.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-86310245192457534416033a34c4ef5cff2e94d0-zip-872d19.zip" title="dist-reference: 86310245192457534416033a34c4ef5cff2e94d0">v0.2.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-7ef975abdf6a631cb475c2775eb413caa1e56474-zip-089171.zip" title="dist-reference: 7ef975abdf6a631cb475c2775eb413caa1e56474">v0.1.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-b0dac43107df91e98f11a6114761b2cbda618600-zip-755b49.zip" title="dist-reference: b0dac43107df91e98f11a6114761b2cbda618600">v0.1.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-bcc9bff8df41fc364621511356babdc0f96035bf-zip-cad5e2.zip" title="dist-reference: bcc9bff8df41fc364621511356babdc0f96035bf">v0.1.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-790d7ceb586e61af20f90a6c816d4c95360f6013-zip-5b8a0d.zip" title="dist-reference: 790d7ceb586e61af20f90a6c816d4c95360f6013">v0.1.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-420d06c39bb1d2c13eb5ded2ef613a4aab114ef2-zip-80f8ad.zip" title="dist-reference: 420d06c39bb1d2c13eb5ded2ef613a4aab114ef2">v0.1.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-e18a80e2744598b35f1b6862a4f707b6a46a7d75-zip-01c1aa.zip" title="dist-reference: e18a80e2744598b35f1b6862a4f707b6a46a7d75, branch-alias: 1.x-dev">dev-main</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-53e9d217e1bde59dd49a5dd96e30c5298cc6cf96-zip-a3ae71.zip" title="dist-reference: 53e9d217e1bde59dd49a5dd96e30c5298cc6cf96">dev-renovate/cehlers88-analytics-core-1.x-lockfile</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-ef884a9430c5df81c9bbcdb8a56b21b211ae483d-zip-87be73.zip" title="dist-reference: ef884a9430c5df81c9bbcdb8a56b21b211ae483d">dev-copilot/implement-create-git-issues</a>            </dd>
+
+        
+                </dl>
+    </div>
+</div>
+                    
+<div class="card border-primary mb-3">
+    <div id="cehlers88/analytics-documents-bundle" class="card-header field-name filter-by text-bg-primary">
+        <a href="#cehlers88/analytics-documents-bundle" class="text-reset">
+            <svg class="octicon-link" width="16" height="16">
+                <use xlink:href="#octicon-link"></use>
+            </svg>
+            cehlers88/analytics-documents-bundle
+        </a>
+
+            </div>
+
+    <div class="card-body">
+                <p class="field-description filter-by">Documents Bundle for Analytics</p>
+        
+        <dl class="row mb-0">
+            <dt class="col-sm-3 col-md-2"></dt>
+            <dd class="col-sm-9 col-md-10"></dd>
+
+                    <dt class="col-sm-3 col-md-2 field-type">Type</dt>
+            <dd class="col-sm-9 col-md-10 field-type filter-by">symfony-bundle</dd>
+        
+        
+        
+                    <dt class="col-sm-3 col-md-2 field-license">License</dt>
+            <dd class="col-sm-9 col-md-10 field-license filter-by">proprietary</dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-authors">Authors</dt>
+            <dd class="col-sm-9 col-md-10 field-authors filter-by">
+                christoph ehlers            </dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-support">Support</dt>
+            <dd class="col-sm-9 col-md-10 field-support filter-by">
+                <ul class="list-unstyled m-0">
+                                        <li>Source: <a href="https://github.com/cEhlers88/AnalyticsDocumentsBundle/tree/v0.1.25">https://github.com/cEhlers88/AnalyticsDocumentsBundle/tree/v0.1.25</a></li>
+                                        <li>Issues: <a href="https://github.com/cEhlers88/AnalyticsDocumentsBundle/issues">https://github.com/cEhlers88/AnalyticsDocumentsBundle/issues</a></li>
+                                    </ul>
+            </dd>
+        
+            <dt class="col-sm-3 col-md-2 field-releases">Releases</dt>
+            <dd class="col-sm-9 col-md-10 field-releases filter-by" data-package-name="cehlers88/analytics-documents-bundle">
+                
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-f1c8dc11ab084098b36b47babaaff4c72612dcc6-zip-79ab09.zip" title="dist-reference: f1c8dc11ab084098b36b47babaaff4c72612dcc6">v0.1.25</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-d304230f1db94924a904a7f766c343811672736e-zip-2c3cbe.zip" title="dist-reference: d304230f1db94924a904a7f766c343811672736e">v0.1.24</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-d92408acc7e4c4502e5d94ab635036a3fdc8fce2-zip-17c745.zip" title="dist-reference: d92408acc7e4c4502e5d94ab635036a3fdc8fce2">v0.1.23</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-da82e77f6bc84f6038c7ac43ba23173d430ba097-zip-a9ec94.zip" title="dist-reference: da82e77f6bc84f6038c7ac43ba23173d430ba097">v0.1.22</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-68f6b39a94902117638da5f93943dae317eeab48-zip-bd7596.zip" title="dist-reference: 68f6b39a94902117638da5f93943dae317eeab48">v0.1.21</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-fad76f7ddd4bfda880e0ccf30bcca4fda7212092-zip-951846.zip" title="dist-reference: fad76f7ddd4bfda880e0ccf30bcca4fda7212092">v0.1.20</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-737ba69f5d4b1ef9fc9984e7a1b4f4fe68d20f64-zip-d702e4.zip" title="dist-reference: 737ba69f5d4b1ef9fc9984e7a1b4f4fe68d20f64">v0.1.19</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-32c1166ee6dc34a6957b054450265b011daa0d16-zip-be4e1d.zip" title="dist-reference: 32c1166ee6dc34a6957b054450265b011daa0d16">v0.1.18</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-62ce0ad409b0f21218dbafd437763e3828db24f5-zip-fa5ca0.zip" title="dist-reference: 62ce0ad409b0f21218dbafd437763e3828db24f5">v0.1.17</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-7a0887398d1b641471fd0795a9eba3872f33f315-zip-3722b0.zip" title="dist-reference: 7a0887398d1b641471fd0795a9eba3872f33f315">v0.1.16</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-8527975f6092744618a098f3931431ad0e9950f1-zip-dff248.zip" title="dist-reference: 8527975f6092744618a098f3931431ad0e9950f1">v0.1.15</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-eb5901617c69e15b76a7ba79a5c51f6bf7869c2d-zip-6ae1da.zip" title="dist-reference: eb5901617c69e15b76a7ba79a5c51f6bf7869c2d">v0.1.14</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-a148e9954b0b2012a2614c39f00033a403f5194f-zip-951702.zip" title="dist-reference: a148e9954b0b2012a2614c39f00033a403f5194f">v0.1.13</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-e5e800dc6f54d495ccdb2ae6d853c99a618d771c-zip-b9d6f9.zip" title="dist-reference: e5e800dc6f54d495ccdb2ae6d853c99a618d771c">v0.1.12</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-373082e91f79f6349129d2315bbf80114b5ad402-zip-a30023.zip" title="dist-reference: 373082e91f79f6349129d2315bbf80114b5ad402">v0.1.11</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-7f7f289acc287583422bfebb6f20fd8a4905fdd0-zip-b7fe2b.zip" title="dist-reference: 7f7f289acc287583422bfebb6f20fd8a4905fdd0">v0.1.10</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-491637b9758257e10d5b1b3f11d4473d6bcf7d4c-zip-be1fb2.zip" title="dist-reference: 491637b9758257e10d5b1b3f11d4473d6bcf7d4c">v0.1.9</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-a2ea59e3dcb7106dde0f5a2f0debaa7324f10663-zip-52e3a6.zip" title="dist-reference: a2ea59e3dcb7106dde0f5a2f0debaa7324f10663">v0.1.8</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-5a692463672df50959de10d16dfef2ecf8cbc8f7-zip-405662.zip" title="dist-reference: 5a692463672df50959de10d16dfef2ecf8cbc8f7">v0.1.7</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-c4949a31bee26bb8e75efb72dba09d0988242f1a-zip-f0dd47.zip" title="dist-reference: c4949a31bee26bb8e75efb72dba09d0988242f1a">v0.1.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-ed351315dc74a9ea94f4fb48a737630b35f9b01a-zip-344a9f.zip" title="dist-reference: ed351315dc74a9ea94f4fb48a737630b35f9b01a">v0.1.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-a7548db8a21e83ee36b61b046d53931bd09b6c09-zip-e42218.zip" title="dist-reference: a7548db8a21e83ee36b61b046d53931bd09b6c09">v0.1.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-4bd384dcf5d6ab0c6fd10adeb352edddf489c487-zip-20ddcf.zip" title="dist-reference: 4bd384dcf5d6ab0c6fd10adeb352edddf489c487">v0.1.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-cc95eecafbf644660ee23f37d93f6fe397c3eded-zip-f8a52a.zip" title="dist-reference: cc95eecafbf644660ee23f37d93f6fe397c3eded">v0.1.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-60730d746faca153ab819472bf5e432145a4cca2-zip-51ea9e.zip" title="dist-reference: 60730d746faca153ab819472bf5e432145a4cca2">v0.1.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-24edefba34d7cc368ffe31b2aea3c433bb83b973-zip-d6cbe5.zip" title="dist-reference: 24edefba34d7cc368ffe31b2aea3c433bb83b973">v0.1.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-f1c8dc11ab084098b36b47babaaff4c72612dcc6-zip-79ab09.zip" title="dist-reference: f1c8dc11ab084098b36b47babaaff4c72612dcc6, branch-alias: 1.x-dev">dev-main</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-949db31ec952bbe71de3e3d1e809ebb049eb72e6-zip-b8e8b9.zip" title="dist-reference: 949db31ec952bbe71de3e3d1e809ebb049eb72e6">dev-renovate/cehlers88-analytics-core-1.x-lockfile</a>            </dd>
+
+        
+                </dl>
+    </div>
+</div>
+                    
+<div class="card border-primary mb-3">
+    <div id="cehlers88/analytics-fibu-bundle" class="card-header field-name filter-by text-bg-primary">
+        <a href="#cehlers88/analytics-fibu-bundle" class="text-reset">
+            <svg class="octicon-link" width="16" height="16">
+                <use xlink:href="#octicon-link"></use>
+            </svg>
+            cehlers88/analytics-fibu-bundle
+        </a>
+
+            </div>
+
+    <div class="card-body">
+                <p class="field-description filter-by">FiBu Bundle for Analytics</p>
+        
+        <dl class="row mb-0">
+            <dt class="col-sm-3 col-md-2"></dt>
+            <dd class="col-sm-9 col-md-10"></dd>
+
+                    <dt class="col-sm-3 col-md-2 field-type">Type</dt>
+            <dd class="col-sm-9 col-md-10 field-type filter-by">symfony-bundle</dd>
+        
+        
+        
+                    <dt class="col-sm-3 col-md-2 field-license">License</dt>
+            <dd class="col-sm-9 col-md-10 field-license filter-by">proprietary</dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-authors">Authors</dt>
+            <dd class="col-sm-9 col-md-10 field-authors filter-by">
+                christoph ehlers            </dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-support">Support</dt>
+            <dd class="col-sm-9 col-md-10 field-support filter-by">
+                <ul class="list-unstyled m-0">
+                                        <li>Source: <a href="https://github.com/cEhlers88/AnalyticsFiBuBundle/tree/v1.10.3">https://github.com/cEhlers88/AnalyticsFiBuBundle/tree/v1.10.3</a></li>
+                                        <li>Issues: <a href="https://github.com/cEhlers88/AnalyticsFiBuBundle/issues">https://github.com/cEhlers88/AnalyticsFiBuBundle/issues</a></li>
+                                    </ul>
+            </dd>
+        
+            <dt class="col-sm-3 col-md-2 field-releases">Releases</dt>
+            <dd class="col-sm-9 col-md-10 field-releases filter-by" data-package-name="cehlers88/analytics-fibu-bundle">
+                
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-5b083b0ffce285fa7810d38e3684709c7e72ae13-zip-2f12cd.zip" title="dist-reference: 5b083b0ffce285fa7810d38e3684709c7e72ae13">v1.10.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-ffd5ffef57a0d4cb8fc4f457065f6a1577662d8e-zip-aace15.zip" title="dist-reference: ffd5ffef57a0d4cb8fc4f457065f6a1577662d8e">v1.10.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-88df970bd0944cab4349b36ecbb711f7c725d5a2-zip-5db087.zip" title="dist-reference: 88df970bd0944cab4349b36ecbb711f7c725d5a2">v1.10.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-2cb1a8bc476556ebb4760e2297f0ac89b65ce63d-zip-597256.zip" title="dist-reference: 2cb1a8bc476556ebb4760e2297f0ac89b65ce63d">v1.10.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-8b5050720669725ff42c3fd9669f7ddd04c24e39-zip-658adb.zip" title="dist-reference: 8b5050720669725ff42c3fd9669f7ddd04c24e39">v1.9.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-a0a480e7ac1deaf591809d1a67f655523c629001-zip-a89452.zip" title="dist-reference: a0a480e7ac1deaf591809d1a67f655523c629001">v1.9.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-6ee2575a4c34b4d9d63176d21f9923253a21b6f4-zip-b04b5c.zip" title="dist-reference: 6ee2575a4c34b4d9d63176d21f9923253a21b6f4">v1.8.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-0d22013799e1fb3c9ee06a9a04fb983411b58463-zip-17d724.zip" title="dist-reference: 0d22013799e1fb3c9ee06a9a04fb983411b58463">v1.7.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-ff9ce96d5e8f59800438d6bd1f54163bc00095e7-zip-746979.zip" title="dist-reference: ff9ce96d5e8f59800438d6bd1f54163bc00095e7">v1.6.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-ff3e0a92bd3f30060a6bec7483c3048663490d6a-zip-cc7696.zip" title="dist-reference: ff3e0a92bd3f30060a6bec7483c3048663490d6a">v1.5.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-c7c9fbde5ded7e34b26b0fa0a543bc7dab59d0b9-zip-96db23.zip" title="dist-reference: c7c9fbde5ded7e34b26b0fa0a543bc7dab59d0b9">v1.4.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-f5a0f9bfbbfaa55cf521214bb99a385bf845494f-zip-1c01df.zip" title="dist-reference: f5a0f9bfbbfaa55cf521214bb99a385bf845494f">v1.4.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-39c73a22866bbef1fe2dd1c0a2bc1bc179fd6fc9-zip-7aa47f.zip" title="dist-reference: 39c73a22866bbef1fe2dd1c0a2bc1bc179fd6fc9">v1.3.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-c6923f28e2e768b6e5ef28d7673af92a5717a685-zip-4ff788.zip" title="dist-reference: c6923f28e2e768b6e5ef28d7673af92a5717a685">v1.2.9</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-955189e30b268993a5e1312407a0e0c2081fe488-zip-28496d.zip" title="dist-reference: 955189e30b268993a5e1312407a0e0c2081fe488">v1.2.8</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-20615933f5b4aadd123fbb9031f49c5f9d97c644-zip-a17e5a.zip" title="dist-reference: 20615933f5b4aadd123fbb9031f49c5f9d97c644">v1.2.7</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-f70af854928e478c904ce431112e0e5426161520-zip-2c3be1.zip" title="dist-reference: f70af854928e478c904ce431112e0e5426161520">v1.2.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-847bbae4d81ee8bfd0cfeef3df3d7de32fe1076c-zip-1de58e.zip" title="dist-reference: 847bbae4d81ee8bfd0cfeef3df3d7de32fe1076c">v1.2.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-7b6d3d872599c9802901f4722b55d591b354a70b-zip-b02420.zip" title="dist-reference: 7b6d3d872599c9802901f4722b55d591b354a70b">v1.2.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-75cf50956bb25a9eabe7a39aaa673c0a7e280a52-zip-2dd78c.zip" title="dist-reference: 75cf50956bb25a9eabe7a39aaa673c0a7e280a52">v1.2.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-37e1e79837a96fd0ff4db0c4555aac5856a5cd22-zip-2bfdd8.zip" title="dist-reference: 37e1e79837a96fd0ff4db0c4555aac5856a5cd22">v1.2.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-12227c6b6aa7d7371d7f2fec134b3492c3c113a1-zip-ec660b.zip" title="dist-reference: 12227c6b6aa7d7371d7f2fec134b3492c3c113a1">v1.2.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-1512bc31289f6ffc122c3f5810842a85bdc2d628-zip-14a951.zip" title="dist-reference: 1512bc31289f6ffc122c3f5810842a85bdc2d628">v1.2.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-92958c12c2563f01d1c173bad757d59bee3f8db9-zip-089e7a.zip" title="dist-reference: 92958c12c2563f01d1c173bad757d59bee3f8db9">v1.1.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-c2dc5802d411f53b170c462920c35fbc1e369c7f-zip-e06953.zip" title="dist-reference: c2dc5802d411f53b170c462920c35fbc1e369c7f">v1.0.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-3314d12e94a6aec1b23cfc112d4341d6639b7687-zip-6fda55.zip" title="dist-reference: 3314d12e94a6aec1b23cfc112d4341d6639b7687">v0.1.13</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-ecb344330e0f664934ca7b1dc96a2a467cb10950-zip-bc6979.zip" title="dist-reference: ecb344330e0f664934ca7b1dc96a2a467cb10950">v0.1.12</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-9aa43a173de84fc23adf6e8b883a172315bb2df1-zip-107f43.zip" title="dist-reference: 9aa43a173de84fc23adf6e8b883a172315bb2df1">v0.1.10</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-f04c10b256f7d60b7851f8eb1dfd8b33adf936f8-zip-6274e7.zip" title="dist-reference: f04c10b256f7d60b7851f8eb1dfd8b33adf936f8">v0.1.9</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-dc2e5a800ac153d63f7f092ee383911977f6117b-zip-8f5ac3.zip" title="dist-reference: dc2e5a800ac153d63f7f092ee383911977f6117b">v0.1.8</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-04373896b91733d80fcfba3fd48fc38b2523e34a-zip-aa3504.zip" title="dist-reference: 04373896b91733d80fcfba3fd48fc38b2523e34a">v0.1.7</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-b0b2820571c07117d5ad2b645dc7cd61a332cd01-zip-7d89ca.zip" title="dist-reference: b0b2820571c07117d5ad2b645dc7cd61a332cd01">v0.1.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-90c8d12333c72c6612a208823c07a7c77f7b7abf-zip-c5fde4.zip" title="dist-reference: 90c8d12333c72c6612a208823c07a7c77f7b7abf">v0.1.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-5b5adb55d48f8aac18455a662901d4d46043e2b3-zip-4fa631.zip" title="dist-reference: 5b5adb55d48f8aac18455a662901d4d46043e2b3">v0.1.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-85c89d679528ebc3a5b34ca1f2b99496ffa5965f-zip-69c077.zip" title="dist-reference: 85c89d679528ebc3a5b34ca1f2b99496ffa5965f">v0.1.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-715c247dc2729738b2742f8b5367929c8cd6a098-zip-6b2bb1.zip" title="dist-reference: 715c247dc2729738b2742f8b5367929c8cd6a098">v0.1.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-0357a8e9eceac3dd04346a06842d245db988d557-zip-07ba56.zip" title="dist-reference: 0357a8e9eceac3dd04346a06842d245db988d557">v0.1.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-9427d6ea94e32ed4377743db5b36526de4f51a82-zip-31aebd.zip" title="dist-reference: 9427d6ea94e32ed4377743db5b36526de4f51a82">v0.1.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-5b083b0ffce285fa7810d38e3684709c7e72ae13-zip-2f12cd.zip" title="dist-reference: 5b083b0ffce285fa7810d38e3684709c7e72ae13, branch-alias: 1.x-dev">dev-main</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-4630f19f64bf1aa3895a7d0f29b8239dc2f31835-zip-b2729d.zip" title="dist-reference: 4630f19f64bf1aa3895a7d0f29b8239dc2f31835">dev-renovate/cehlers88-analytics-core-1.x-lockfile</a>            </dd>
+
+        
+                </dl>
+    </div>
+</div>
+                    
+<div class="card border-primary mb-3">
+    <div id="cehlers88/analytics-infrastructure-bundle" class="card-header field-name filter-by text-bg-primary">
+        <a href="#cehlers88/analytics-infrastructure-bundle" class="text-reset">
+            <svg class="octicon-link" width="16" height="16">
+                <use xlink:href="#octicon-link"></use>
+            </svg>
+            cehlers88/analytics-infrastructure-bundle
+        </a>
+
+            </div>
+
+    <div class="card-body">
+                <p class="field-description filter-by">Infrastructure Bundle for Analytics</p>
+        
+        <dl class="row mb-0">
+            <dt class="col-sm-3 col-md-2"></dt>
+            <dd class="col-sm-9 col-md-10"></dd>
+
+                    <dt class="col-sm-3 col-md-2 field-type">Type</dt>
+            <dd class="col-sm-9 col-md-10 field-type filter-by">symfony-bundle</dd>
+        
+        
+        
+                    <dt class="col-sm-3 col-md-2 field-license">License</dt>
+            <dd class="col-sm-9 col-md-10 field-license filter-by">proprietary</dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-authors">Authors</dt>
+            <dd class="col-sm-9 col-md-10 field-authors filter-by">
+                christoph ehlers            </dd>
+        
+                    <dt class="col-sm-3 col-md-2 field-support">Support</dt>
+            <dd class="col-sm-9 col-md-10 field-support filter-by">
+                <ul class="list-unstyled m-0">
+                                        <li>Source: <a href="https://github.com/cEhlers88/AnalyticsInfrastructureBundle/tree/v1.8.3">https://github.com/cEhlers88/AnalyticsInfrastructureBundle/tree/v1.8.3</a></li>
+                                        <li>Issues: <a href="https://github.com/cEhlers88/AnalyticsInfrastructureBundle/issues">https://github.com/cEhlers88/AnalyticsInfrastructureBundle/issues</a></li>
+                                    </ul>
+            </dd>
+        
+            <dt class="col-sm-3 col-md-2 field-releases">Releases</dt>
+            <dd class="col-sm-9 col-md-10 field-releases filter-by" data-package-name="cehlers88/analytics-infrastructure-bundle">
+                
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-db809fce323b6f7a90292c56db60d5023df35dbe-zip-c8a262.zip" title="dist-reference: db809fce323b6f7a90292c56db60d5023df35dbe">v1.8.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-20405a54450b519a5c02cfd50b052810f77ade90-zip-128467.zip" title="dist-reference: 20405a54450b519a5c02cfd50b052810f77ade90">v1.8.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-2688f6cf62506718c9da3246bb7032a7503c7f5c-zip-dbf8e4.zip" title="dist-reference: 2688f6cf62506718c9da3246bb7032a7503c7f5c">v1.8.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-1cea294119da93077432ad13ef50595ed3de036f-zip-d113f6.zip" title="dist-reference: 1cea294119da93077432ad13ef50595ed3de036f">v1.8.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-682cefc2075af84987e286dc030d8aa5405c6e3d-zip-5cbdb4.zip" title="dist-reference: 682cefc2075af84987e286dc030d8aa5405c6e3d">v1.7.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-df39e76347cc3fda28d697bc900c9e1291dfc78f-zip-af3640.zip" title="dist-reference: df39e76347cc3fda28d697bc900c9e1291dfc78f">v1.6.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-6e99f1a9ba6562200d78c2e99695bd5235504171-zip-6e2a41.zip" title="dist-reference: 6e99f1a9ba6562200d78c2e99695bd5235504171">v1.6.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-9c695cfe4a259ba0ad1f8b12aee1ed4cc5f8bb01-zip-7c84fe.zip" title="dist-reference: 9c695cfe4a259ba0ad1f8b12aee1ed4cc5f8bb01">v1.6.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-7c1073dab3fb0950cd604e30e5a00e1940871ae0-zip-41bdb6.zip" title="dist-reference: 7c1073dab3fb0950cd604e30e5a00e1940871ae0">v1.5.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-7560dcf4e630710bb80ccd11df742f05b3812aa3-zip-377225.zip" title="dist-reference: 7560dcf4e630710bb80ccd11df742f05b3812aa3">v1.4.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-422783538ebc363e1a87f2992ef3e53f19b3bc2a-zip-efb191.zip" title="dist-reference: 422783538ebc363e1a87f2992ef3e53f19b3bc2a">v1.3.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-620d21377c8a68cff67034ff06de858a6a6ed897-zip-c8fb36.zip" title="dist-reference: 620d21377c8a68cff67034ff06de858a6a6ed897">v1.3.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-4e8354cd57516a404a0d8fba47e488ac5d702685-zip-1ffa1d.zip" title="dist-reference: 4e8354cd57516a404a0d8fba47e488ac5d702685">v1.2.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-5ab7e436182a9dec1eabfee998d88f504ac07425-zip-7ccbec.zip" title="dist-reference: 5ab7e436182a9dec1eabfee998d88f504ac07425">v1.1.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-dc301e0913ed473158046b6faefad8e3d54aea46-zip-d910b9.zip" title="dist-reference: dc301e0913ed473158046b6faefad8e3d54aea46">v1.1.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-bd162b212325ede125a345d883b8e31dd93f3d6e-zip-078099.zip" title="dist-reference: bd162b212325ede125a345d883b8e31dd93f3d6e">v1.1.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-43b1d11c2eb6fae5d529bb12042a76ea039d0674-zip-4d4030.zip" title="dist-reference: 43b1d11c2eb6fae5d529bb12042a76ea039d0674">v1.1.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-7db9a22b316798b2a4dd9763f1b713349095d35d-zip-8440e7.zip" title="dist-reference: 7db9a22b316798b2a4dd9763f1b713349095d35d">v1.0.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-1a85d37f95d2429f4148a4622474f3c3631e9d14-zip-37f9a0.zip" title="dist-reference: 1a85d37f95d2429f4148a4622474f3c3631e9d14">v1.0.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-6b81fdefe30f8e8b99b2a14ad97566740dfeff2f-zip-5c7f74.zip" title="dist-reference: 6b81fdefe30f8e8b99b2a14ad97566740dfeff2f">v1.0.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-3402f6e5f4395216fa04748a11751ab0a8617c02-zip-091ce2.zip" title="dist-reference: 3402f6e5f4395216fa04748a11751ab0a8617c02">v0.1.16</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-03a845ec0d8b12141b7b6abc84fce9c3a300dc14-zip-c9fc49.zip" title="dist-reference: 03a845ec0d8b12141b7b6abc84fce9c3a300dc14">v0.1.15</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-ee9178c174b1a203930d8f9f2b322aee12cde0e3-zip-035f18.zip" title="dist-reference: ee9178c174b1a203930d8f9f2b322aee12cde0e3">v0.1.14</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-28f802404fc93b31f9a09ecda031a55a1d04f807-zip-be8f29.zip" title="dist-reference: 28f802404fc93b31f9a09ecda031a55a1d04f807">v0.1.13</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-7caf5e82e6aefefda7c54554e340324efc3984be-zip-b16090.zip" title="dist-reference: 7caf5e82e6aefefda7c54554e340324efc3984be">v0.1.12</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-6704bbf69ebba5c1e54ef436ad37a23c141ccfd1-zip-41b961.zip" title="dist-reference: 6704bbf69ebba5c1e54ef436ad37a23c141ccfd1">v0.1.11</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-489e6d4e5f89fe15f9b6f4ab7b49375b0b824f13-zip-79fe77.zip" title="dist-reference: 489e6d4e5f89fe15f9b6f4ab7b49375b0b824f13">v0.1.10</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-1f2a3b256707e7ab156cb43883261831f3dbff41-zip-03d0aa.zip" title="dist-reference: 1f2a3b256707e7ab156cb43883261831f3dbff41">v0.1.9</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-5227e0fcf7beb4dc83f7484bba827b2cffac7688-zip-b1e853.zip" title="dist-reference: 5227e0fcf7beb4dc83f7484bba827b2cffac7688">v0.1.8</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-b98be7fedb28ae265efc572708c95d0191d1b6db-zip-a85945.zip" title="dist-reference: b98be7fedb28ae265efc572708c95d0191d1b6db">v0.1.7</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-bc9c0ca5c0ed802d63a6f18402378d0056c0fdc7-zip-916b42.zip" title="dist-reference: bc9c0ca5c0ed802d63a6f18402378d0056c0fdc7">v0.1.6</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-6fba40dcc73a72877c719435b044e8e988a51bcd-zip-32ae18.zip" title="dist-reference: 6fba40dcc73a72877c719435b044e8e988a51bcd">v0.1.5</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-a88d36a64fd834cb361a3405bd6350d1234946f1-zip-df349e.zip" title="dist-reference: a88d36a64fd834cb361a3405bd6350d1234946f1">v0.1.4</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-ee8a0a5cc1672215bbe5ca3f7d91c1e486f6d35d-zip-86b92e.zip" title="dist-reference: ee8a0a5cc1672215bbe5ca3f7d91c1e486f6d35d">v0.1.3</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-5cdc1caa70bafe79f5362c698609e9e12fe4af73-zip-f5df99.zip" title="dist-reference: 5cdc1caa70bafe79f5362c698609e9e12fe4af73">v0.1.2</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-49b1a46e51460dacdd7a1e2c5b1a913ce6a7e796-zip-a228a7.zip" title="dist-reference: 49b1a46e51460dacdd7a1e2c5b1a913ce6a7e796">v0.1.1</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-a299642a8f999e71cb693dd45285c7caf0b49cfd-zip-159a6c.zip" title="dist-reference: a299642a8f999e71cb693dd45285c7caf0b49cfd">v0.1.0</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-9a1f5e45d51a8c803f9c4aa889d2f3266d791af0-zip-cea35c.zip" title="dist-reference: 9a1f5e45d51a8c803f9c4aa889d2f3266d791af0">dev-revert-72-release-please--branches--main</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-db809fce323b6f7a90292c56db60d5023df35dbe-zip-c8a262.zip" title="dist-reference: db809fce323b6f7a90292c56db60d5023df35dbe, branch-alias: 1.x-dev">dev-main</a>
+                <a class="badge rounded-pill text-bg-secondary" href="https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-0f6b5647988fa7c52f7a7a0d967763e75a7dd249-zip-715883.zip" title="dist-reference: 0f6b5647988fa7c52f7a7a0d967763e75a7dd249">dev-renovate/cehlers88-analytics-core-1.x-lockfile</a>            </dd>
+
+        
+                </dl>
+    </div>
+</div>
+            </div>
+
+    <div id="ft">
+        <p class="text-center"><small>This Composer repository is powered by <a href="https://github.com/composer/satis">Satis</a></small></p>
+    </div>
+</div>
+
+<div class="input-group copy-snippet d-none pt-3">
+    <div class="copy-snippet__tooltip tooltip bs-tooltip-bottom" role="tooltip">
+        <div class="arrow"></div>
+        <div class="tooltip-inner">Copied dependency to clipboard</div>
+    </div>
+    <label for="copy-snippet__input" class="visually-hidden">Release code snippet for composer json</label>
+    <input id="copy-snippet__input" class="copy-snippet__input form-control" type="text">
+    <div class="input-group-append">
+        <button class="btn btn-outline-secondary copy-snippet__button" aria-label="Copy to clipboard" title="Copy to clipboard">
+            <svg role="img" height="24" width="22.4" viewBox="0 0 1024 896" xmlns="http://www.w3.org/2000/svg">
+                <path d="M704 896h-640v-576h640v192h64v-320c0-35-29-64-64-64h-192c0-71-57-128-128-128s-128 57-128 128h-192c-35 0-64 29-64 64v704c0 35 29 64 64 64h640c35 0 64-29 64-64v-128h-64v128z m-512-704c29 0 29 0 64 0s64-29 64-64 29-64 64-64 64 29 64 64 32 64 64 64 33 0 64 0 64 29 64 64h-512c0-39 28-64 64-64z m-64 512h128v-64h-128v64z m448-128v-128l-256 192 256 192v-128h320v-128h-320z m-448 256h192v-64h-192v64z m320-448h-320v64h320v-64z m-192 128h-128v64h128v-64z"></path>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<script type="text/javascript">
+!function(){"use strict";function t(e){return t="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},t(e)}function e(t,e){return function(t){if(Array.isArray(t))return t}(t)||function(t,e){var n=null==t?null:"undefined"!=typeof Symbol&&t[Symbol.iterator]||t["@@iterator"];if(null!=n){var r,i,a,o,s=[],u=!0,l=!1;try{if(a=(n=n.call(t)).next,0===e){if(Object(n)!==n)return;u=!1}else for(;!(u=(r=a.call(n)).done)&&(s.push(r.value),s.length!==e);u=!0);}catch(t){l=!0,i=t}finally{try{if(!u&&null!=n.return&&(o=n.return(),Object(o)!==o))return}finally{if(l)throw i}}return s}}(t,e)||function(t,e){if(t){if("string"==typeof t)return n(t,e);var r={}.toString.call(t).slice(8,-1);return"Object"===r&&t.constructor&&(r=t.constructor.name),"Map"===r||"Set"===r?Array.from(t):"Arguments"===r||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)?n(t,e):void 0}}(t,e)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function n(t,e){(null==e||e>t.length)&&(e=t.length);for(var n=0,r=Array(e);n<e;n++)r[n]=t[n];return r}function r(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,i(r.key),r)}}function i(e){var n=function(e,n){if("object"!=t(e)||!e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var i=r.call(e,n||"default");if("object"!=t(i))return i;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===n?String:Number)(e)}(e,"string");return"symbol"==t(n)?n:n+""}var a=function(){return t=function t(){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t);var e=Array.prototype.slice.call(document.querySelectorAll("[aria-expanded][aria-controls]"));this.collapsibleElements=e.map(function(t){return[t,document.getElementById(t.getAttribute("aria-controls"))]}),this.handleClick=this.handleClick.bind(this),this.init()},(n=[{key:"handleClick",value:function(t){var e=t.target,n=document.getElementById(e.getAttribute("aria-controls"));if(!n)return!1;if("true"===e.getAttribute("aria-expanded"))return e.setAttribute("aria-expanded","false"),n.style.maxHeight=0,!0;var r=parseInt(n.dataset.naturalHeight);return!(isNaN(r)||!r||(e.setAttribute("aria-expanded","true"),n.hidden=!1,window.requestAnimationFrame(function(){n.style.maxHeight=r+"px"}),0))}},{key:"handleTransitionEnd",value:function(t){var e=t.propertyName,n=t.target;"max-height"===e&&(n.hidden=0===parseInt(n.style.maxHeight))}},{key:"init",value:function(){var t=this;this.collapsibleElements.forEach(function(n){var r=e(n,2),i=r[0],a=r[1];i.addEventListener("click",function(e){t.handleClick(e)&&e.preventDefault()}),a.addEventListener("transitionend",t.handleTransitionEnd),t.resetNaturalHeight(i,a)});var n=null;window.addEventListener("resize",function(){window.clearTimeout(n),n=window.setTimeout(function(){t.collapsibleElements.forEach(function(n){var r=e(n,2),i=r[0],a=r[1];t.resetNaturalHeight(i,a)})},50)})}},{key:"resetNaturalHeight",value:function(t,e){e.style.transition="",e.style.maxHeight="",e.style.overflow="",e.hidden=!1;var n="true"===t.getAttribute("aria-expanded"),r=e.getBoundingClientRect().height;e.dataset.naturalHeight=r,e.style.overflow="hidden",e.style.maxHeight=n?r+"px":0,e.style.transition="max-height 0.25s",e.hidden=!n}}])&&r(t.prototype,n),i&&r(t,i),Object.defineProperty(t,"prototype",{writable:!1}),t;var t,n,i}();Math.pow(10,8);const o=43200,s=Symbol.for("constructDateFrom");function u(t,e){return"function"==typeof t?t(e):t&&"object"==typeof t&&s in t?t[s](e):t instanceof Date?new t.constructor(e):new Date(e)}function l(t){return u(t,Date.now())}const c={lessThanXSeconds:{one:"less than a second",other:"less than {{count}} seconds"},xSeconds:{one:"1 second",other:"{{count}} seconds"},halfAMinute:"half a minute",lessThanXMinutes:{one:"less than a minute",other:"less than {{count}} minutes"},xMinutes:{one:"1 minute",other:"{{count}} minutes"},aboutXHours:{one:"about 1 hour",other:"about {{count}} hours"},xHours:{one:"1 hour",other:"{{count}} hours"},xDays:{one:"1 day",other:"{{count}} days"},aboutXWeeks:{one:"about 1 week",other:"about {{count}} weeks"},xWeeks:{one:"1 week",other:"{{count}} weeks"},aboutXMonths:{one:"about 1 month",other:"about {{count}} months"},xMonths:{one:"1 month",other:"{{count}} months"},aboutXYears:{one:"about 1 year",other:"about {{count}} years"},xYears:{one:"1 year",other:"{{count}} years"},overXYears:{one:"over 1 year",other:"over {{count}} years"},almostXYears:{one:"almost 1 year",other:"almost {{count}} years"}};function d(t){return(e={})=>{const n=e.width?String(e.width):t.defaultWidth;return t.formats[n]||t.formats[t.defaultWidth]}}const f={date:d({formats:{full:"EEEE, MMMM do, y",long:"MMMM do, y",medium:"MMM d, y",short:"MM/dd/yyyy"},defaultWidth:"full"}),time:d({formats:{full:"h:mm:ss a zzzz",long:"h:mm:ss a z",medium:"h:mm:ss a",short:"h:mm a"},defaultWidth:"full"}),dateTime:d({formats:{full:"{{date}} 'at' {{time}}",long:"{{date}} 'at' {{time}}",medium:"{{date}}, {{time}}",short:"{{date}}, {{time}}"},defaultWidth:"full"})},h={lastWeek:"'last' eeee 'at' p",yesterday:"'yesterday at' p",today:"'today at' p",tomorrow:"'tomorrow at' p",nextWeek:"eeee 'at' p",other:"P"};function m(t){return(e,n)=>{let r;if("formatting"===(n?.context?String(n.context):"standalone")&&t.formattingValues){const e=t.defaultFormattingWidth||t.defaultWidth,i=n?.width?String(n.width):e;r=t.formattingValues[i]||t.formattingValues[e]}else{const e=t.defaultWidth,i=n?.width?String(n.width):t.defaultWidth;r=t.values[i]||t.values[e]}return r[t.argumentCallback?t.argumentCallback(e):e]}}function y(t){return(e,n={})=>{const r=n.width,i=r&&t.matchPatterns[r]||t.matchPatterns[t.defaultMatchWidth],a=e.match(i);if(!a)return null;const o=a[0],s=r&&t.parsePatterns[r]||t.parsePatterns[t.defaultParseWidth],u=Array.isArray(s)?function(t,e){for(let n=0;n<t.length;n++)if(e(t[n]))return n;return}(s,t=>t.test(o)):function(t,e){for(const n in t)if(Object.prototype.hasOwnProperty.call(t,n)&&e(t[n]))return n;return}(s,t=>t.test(o));let l;l=t.valueCallback?t.valueCallback(u):u,l=n.valueCallback?n.valueCallback(l):l;return{value:l,rest:e.slice(o.length)}}}var v;const p={code:"en-US",formatDistance:(t,e,n)=>{let r;const i=c[t];return r="string"==typeof i?i:1===e?i.one:i.other.replace("{{count}}",e.toString()),n?.addSuffix?n.comparison&&n.comparison>0?"in "+r:r+" ago":r},formatLong:f,formatRelative:(t,e,n,r)=>h[t],localize:{ordinalNumber:(t,e)=>{const n=Number(t),r=n%100;if(r>20||r<10)switch(r%10){case 1:return n+"st";case 2:return n+"nd";case 3:return n+"rd"}return n+"th"},era:m({values:{narrow:["B","A"],abbreviated:["BC","AD"],wide:["Before Christ","Anno Domini"]},defaultWidth:"wide"}),quarter:m({values:{narrow:["1","2","3","4"],abbreviated:["Q1","Q2","Q3","Q4"],wide:["1st quarter","2nd quarter","3rd quarter","4th quarter"]},defaultWidth:"wide",argumentCallback:t=>t-1}),month:m({values:{narrow:["J","F","M","A","M","J","J","A","S","O","N","D"],abbreviated:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],wide:["January","February","March","April","May","June","July","August","September","October","November","December"]},defaultWidth:"wide"}),day:m({values:{narrow:["S","M","T","W","T","F","S"],short:["Su","Mo","Tu","We","Th","Fr","Sa"],abbreviated:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],wide:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]},defaultWidth:"wide"}),dayPeriod:m({values:{narrow:{am:"a",pm:"p",midnight:"mi",noon:"n",morning:"morning",afternoon:"afternoon",evening:"evening",night:"night"},abbreviated:{am:"AM",pm:"PM",midnight:"midnight",noon:"noon",morning:"morning",afternoon:"afternoon",evening:"evening",night:"night"},wide:{am:"a.m.",pm:"p.m.",midnight:"midnight",noon:"noon",morning:"morning",afternoon:"afternoon",evening:"evening",night:"night"}},defaultWidth:"wide",formattingValues:{narrow:{am:"a",pm:"p",midnight:"mi",noon:"n",morning:"in the morning",afternoon:"in the afternoon",evening:"in the evening",night:"at night"},abbreviated:{am:"AM",pm:"PM",midnight:"midnight",noon:"noon",morning:"in the morning",afternoon:"in the afternoon",evening:"in the evening",night:"at night"},wide:{am:"a.m.",pm:"p.m.",midnight:"midnight",noon:"noon",morning:"in the morning",afternoon:"in the afternoon",evening:"in the evening",night:"at night"}},defaultFormattingWidth:"wide"})},match:{ordinalNumber:(v={matchPattern:/^(\d+)(th|st|nd|rd)?/i,parsePattern:/\d+/i,valueCallback:t=>parseInt(t,10)},(t,e={})=>{const n=t.match(v.matchPattern);if(!n)return null;const r=n[0],i=t.match(v.parsePattern);if(!i)return null;let a=v.valueCallback?v.valueCallback(i[0]):i[0];return a=e.valueCallback?e.valueCallback(a):a,{value:a,rest:t.slice(r.length)}}),era:y({matchPatterns:{narrow:/^(b|a)/i,abbreviated:/^(b\.?\s?c\.?|b\.?\s?c\.?\s?e\.?|a\.?\s?d\.?|c\.?\s?e\.?)/i,wide:/^(before christ|before common era|anno domini|common era)/i},defaultMatchWidth:"wide",parsePatterns:{any:[/^b/i,/^(a|c)/i]},defaultParseWidth:"any"}),quarter:y({matchPatterns:{narrow:/^[1234]/i,abbreviated:/^q[1234]/i,wide:/^[1234](th|st|nd|rd)? quarter/i},defaultMatchWidth:"wide",parsePatterns:{any:[/1/i,/2/i,/3/i,/4/i]},defaultParseWidth:"any",valueCallback:t=>t+1}),month:y({matchPatterns:{narrow:/^[jfmasond]/i,abbreviated:/^(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i,wide:/^(january|february|march|april|may|june|july|august|september|october|november|december)/i},defaultMatchWidth:"wide",parsePatterns:{narrow:[/^j/i,/^f/i,/^m/i,/^a/i,/^m/i,/^j/i,/^j/i,/^a/i,/^s/i,/^o/i,/^n/i,/^d/i],any:[/^ja/i,/^f/i,/^mar/i,/^ap/i,/^may/i,/^jun/i,/^jul/i,/^au/i,/^s/i,/^o/i,/^n/i,/^d/i]},defaultParseWidth:"any"}),day:y({matchPatterns:{narrow:/^[smtwf]/i,short:/^(su|mo|tu|we|th|fr|sa)/i,abbreviated:/^(sun|mon|tue|wed|thu|fri|sat)/i,wide:/^(sunday|monday|tuesday|wednesday|thursday|friday|saturday)/i},defaultMatchWidth:"wide",parsePatterns:{narrow:[/^s/i,/^m/i,/^t/i,/^w/i,/^t/i,/^f/i,/^s/i],any:[/^su/i,/^m/i,/^tu/i,/^w/i,/^th/i,/^f/i,/^sa/i]},defaultParseWidth:"any"}),dayPeriod:y({matchPatterns:{narrow:/^(a|p|mi|n|(in the|at) (morning|afternoon|evening|night))/i,any:/^([ap]\.?\s?m\.?|midnight|noon|(in the|at) (morning|afternoon|evening|night))/i},defaultMatchWidth:"any",parsePatterns:{any:{am:/^a/i,pm:/^p/i,midnight:/^mi/i,noon:/^no/i,morning:/morning/i,afternoon:/afternoon/i,evening:/evening/i,night:/night/i}},defaultParseWidth:"any"})},options:{weekStartsOn:0,firstWeekContainsDate:1}};var g=p;let b={};function w(){return b}function S(t,e){return u(e||t,t)}function k(t){const e=S(t),n=new Date(Date.UTC(e.getFullYear(),e.getMonth(),e.getDate(),e.getHours(),e.getMinutes(),e.getSeconds(),e.getMilliseconds()));return n.setUTCFullYear(e.getFullYear()),+t-+n}function F(t,...e){const n=u.bind(null,t||e.find(t=>"object"==typeof t));return e.map(n)}function M(t,e){const n=+S(t)-+S(e);return n<0?-1:n>0?1:n}function P(t,e,n){const[r,i]=F(n?.in,t,e);return 12*(r.getFullYear()-i.getFullYear())+(r.getMonth()-i.getMonth())}function T(t,e){const n=S(t,e?.in);return n.setHours(23,59,59,999),n}function A(t,e){const n=S(t,e?.in),r=n.getMonth();return n.setFullYear(n.getFullYear(),r+1,0),n.setHours(23,59,59,999),n}function C(t,e){const n=S(t,e?.in);return+T(n,e)===+A(n,e)}function x(t,e,n){const[r,i,a]=F(n?.in,t,t,e),o=M(i,a),s=Math.abs(P(i,a));if(s<1)return 0;1===i.getMonth()&&i.getDate()>27&&i.setDate(30),i.setMonth(i.getMonth()-o*s);let u=M(i,a)===-o;C(r)&&1===s&&1===M(r,a)&&(u=!1);const l=o*(s-+u);return 0===l?0:l}function E(t,e){return+S(t)-+S(e)}function j(t,e,n){const r=E(t,e)/1e3;return(i=n?.roundingMethod,t=>{const e=(i?Math[i]:Math.trunc)(t);return 0===e?0:e})(r);var i}function D(t,e,n){const r=w(),i=n?.locale??r.locale??p,a=M(t,e);if(isNaN(a))throw new RangeError("Invalid time value");const s=Object.assign({},n,{addSuffix:n?.addSuffix,comparison:a}),[u,l]=F(n?.in,...a>0?[e,t]:[t,e]),c=j(l,u),d=(k(l)-k(u))/1e3,f=Math.round((c-d)/60);let h;if(f<2)return n?.includeSeconds?c<5?i.formatDistance("lessThanXSeconds",5,s):c<10?i.formatDistance("lessThanXSeconds",10,s):c<20?i.formatDistance("lessThanXSeconds",20,s):c<40?i.formatDistance("halfAMinute",0,s):c<60?i.formatDistance("lessThanXMinutes",1,s):i.formatDistance("xMinutes",1,s):0===f?i.formatDistance("lessThanXMinutes",1,s):i.formatDistance("xMinutes",f,s);if(f<45)return i.formatDistance("xMinutes",f,s);if(f<90)return i.formatDistance("aboutXHours",1,s);if(f<1440){const t=Math.round(f/60);return i.formatDistance("aboutXHours",t,s)}if(f<2520)return i.formatDistance("xDays",1,s);if(f<o){const t=Math.round(f/1440);return i.formatDistance("xDays",t,s)}if(f<86400)return h=Math.round(f/o),i.formatDistance("aboutXMonths",h,s);if(h=x(l,u),h<12){const t=Math.round(f/o);return i.formatDistance("xMonths",t,s)}{const t=h%12,e=Math.trunc(h/12);return t<3?i.formatDistance("aboutXYears",e,s):t<9?i.formatDistance("overXYears",e,s):i.formatDistance("almostXYears",e+1,s)}}var L=function(t,e){return D(t,l(t),e)};function B(t){return B="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},B(t)}function W(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,q(r.key),r)}}function q(t){var e=function(t,e){if("object"!=B(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var r=n.call(t,e||"default");if("object"!=B(r))return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===e?String:Number)(t)}(t,"string");return"symbol"==B(e)?e:e+""}var N=function(){return t=function t(){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t)},n=[{key:"calculate",value:function(t){"string"==typeof t&&(t=document.querySelectorAll(t));for(var e=0;e<t.length;e++){var n=t[e],r=n.attributes.datetime.value,i=new Date(r),a=L(i,{addSuffix:!0,locale:g});n.textContent=a}}}],(e=null)&&W(t.prototype,e),n&&W(t,n),Object.defineProperty(t,"prototype",{writable:!1}),t;var t,e,n}();function O(t){return O="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},O(t)}function H(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,I(r.key),r)}}function I(t){var e=function(t,e){if("object"!=O(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var r=n.call(t,e||"default");if("object"!=O(r))return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===e?String:Number)(t)}(t,"string");return"symbol"==O(e)?e:e+""}var X=function(){return t=function t(e,n,r,i){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.searchField=document.querySelector(e),this.itemContainer=document.querySelector(n),this.filterBy=document.querySelector(i),this.allPackages=Array.prototype.slice.call(this.itemContainer.querySelectorAll(r)),this.inputTimeout=null,this.filterByValue=null,this.searchField&&this.itemContainer&&this.filterBy&&this.allPackages.length&&this.init()},(e=[{key:"readHash",value:function(){var t=window.decodeURIComponent(window.location.hash.substr(1));t.length>0&&(this.searchField.value=t,this.filterPackages())}},{key:"updateHash",value:function(){window.location.hash=window.encodeURIComponent(this.searchField.value)}},{key:"filterPackages",value:function(){var t=this,e=this.searchField.value.toLowerCase();e.length?(this.itemContainer.classList.add("d-none"),this.allPackages.forEach(function(n){n.classList.add("d-none");var r=n.textContent;if(t.filterByValue){var i=n.querySelector(".field-"+t.filterByValue+".filter-by");r=i?i.textContent:""}-1!==r.toLowerCase().indexOf(e)&&n.classList.remove("d-none")}),this.itemContainer.classList.remove("d-none")):this.allPackages.forEach(function(t){return t.classList.remove("d-none")})}},{key:"handleFilterByChange",value:function(t){this.filterByValue=t.target.value.length&&"all"!==t.target.value?t.target.value:null,this.searchField.value.length&&this.filterPackages()}},{key:"init",value:function(){var t=this;this.filterBy.addEventListener("change",function(e){return t.handleFilterByChange(e)}),this.searchField.addEventListener("search",function(){t.searchField.value||(t.updateHash(),t.filterPackages())}),this.searchField.addEventListener("keyup",function(){t.updateHash(),window.clearTimeout(t.inputTimeout),t.inputTimeout=window.setTimeout(t.filterPackages.bind(t),350)}),document.addEventListener("keyup",function(e){(e.code&&"Escape"===e.code||27===e.keyCode)&&(t.searchField.value="",t.updateHash(),t.filterPackages())}),this.handleFilterByChange({target:this.filterBy}),this.readHash()}}])&&H(t.prototype,e),n&&H(t,n),Object.defineProperty(t,"prototype",{writable:!1}),t;var t,e,n}();function R(t){return R="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},R(t)}function Y(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,J(r.key),r)}}function J(t){var e=function(t,e){if("object"!=R(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var r=n.call(t,e||"default");if("object"!=R(r))return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===e?String:Number)(t)}(t,"string");return"symbol"==R(e)?e:e+""}var U=function(){return t=function t(e,n,r){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.defaultFilterBy=Array.prototype.slice.call(document.querySelectorAll(e)),this.activeFilter=document.querySelector(n),this.useThisField=document.querySelector(r),this.activeFilter&&this.useThisField&&this.defaultFilterBy.length&&(this.initEventHandlers(),this.initDefaultFields())},(e=[{key:"initEventHandlers",value:function(){this.defaultFilterBy.forEach(function(t){return t.addEventListener("change",function(t){return window.localStorage.setItem("satisDefaultFilterBy",t.target.value)})}),this.useThisField.addEventListener("change",function(t){return window.localStorage.setItem("satisUseThisField",t.target.value)}),this.activeFilter.addEventListener("change",function(t){return window.localStorage.setItem("satisActiveFilter",t.target.value)})}},{key:"initDefaultFields",value:function(){var t=window.localStorage.getItem("satisDefaultFilterBy")||"all";this.defaultFilterBy.forEach(function(e){return e.checked=t===e.value});var e=window.localStorage.getItem("satisUseThisField");e&&(this.useThisField.value=e),"recent"===t&&(this.activeFilter.value=window.localStorage.getItem("satisActiveFilter")||"all"),"custom"===t&&e&&(this.activeFilter.value=e)}}])&&Y(t.prototype,e),n&&Y(t,n),Object.defineProperty(t,"prototype",{writable:!1}),t;var t,e,n}();function V(t){return V="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},V(t)}function z(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,_(r.key),r)}}function _(t){var e=function(t,e){if("object"!=V(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var r=n.call(t,e||"default");if("object"!=V(r))return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===e?String:Number)(t)}(t,"string");return"symbol"==V(e)?e:e+""}var Q=function(){return t=function t(e,n){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.packageFieldsByFieldName={},this.showAllButton=document.querySelector(e),this.checkboxes=Array.prototype.slice.call(document.querySelectorAll(n)),this.showAllButton&&this.checkboxes.length&&this.init()},(e=[{key:"populateCheckboxesFromStorage",value:function(){var t=this,e=!0,n=JSON.parse(window.localStorage.getItem("satisFieldStatus")||"{}");this.checkboxes.forEach(function(r){r.value in n&&(r.checked=n[r.value],!1===r.checked&&(e=!1)),t.toggleField(r.value,r.checked)}),this.showAllButton.disabled=e}},{key:"saveCheckboxesToStorage",value:function(){var t=this,e=!0,n={};this.checkboxes.forEach(function(r){n[r.value]=r.checked,!1===r.checked&&(e=!1),t.toggleField(r.value,r.checked)}),window.localStorage.setItem("satisFieldStatus",JSON.stringify(n)),this.showAllButton.disabled=e}},{key:"toggleField",value:function(t,e){this.packageFieldsByFieldName[t].forEach(function(t){e?t.classList.remove("d-none"):t.classList.add("d-none")})}},{key:"showAllFields",value:function(){this.checkboxes.forEach(function(t){t.checked=!0}),this.saveCheckboxesToStorage()}},{key:"init",value:function(){var t=this;this.showAllButton.addEventListener("click",function(){return t.showAllFields()}),this.checkboxes.forEach(function(e){e.addEventListener("change",function(){return t.saveCheckboxesToStorage()}),t.packageFieldsByFieldName[e.value]=Array.prototype.slice.call(document.querySelectorAll(".field-"+e.value))}),this.populateCheckboxesFromStorage()}}])&&z(t.prototype,e),n&&z(t,n),Object.defineProperty(t,"prototype",{writable:!1}),t;var t,e,n}();function $(t){return $="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},$(t)}function G(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,K(r.key),r)}}function K(t){var e=function(t,e){if("object"!=$(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var r=n.call(t,e||"default");if("object"!=$(r))return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===e?String:Number)(t)}(t,"string");return"symbol"==$(e)?e:e+""}var Z=function(){return t=function t(e,n){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.settingsForm=document.querySelector(e),this.settingsFormButton=document.querySelector(n),this.settingsForm&&this.settingsFormButton&&this.init()},(e=[{key:"handleButtonActiveState",value:function(t){t.target.classList.contains("active")?(t.target.classList.remove("active"),t.target.setAttribute("aria-pressed","false")):(t.target.classList.add("active"),t.target.setAttribute("aria-pressed","true"))}},{key:"init",value:function(){this.settingsFormButton.classList.remove("d-none"),this.settingsFormButton.addEventListener("click",this.handleButtonActiveState)}}])&&G(t.prototype,e),n&&G(t,n),Object.defineProperty(t,"prototype",{writable:!1}),t;var t,e,n}();function tt(t){return tt="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},tt(t)}function et(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,nt(r.key),r)}}function nt(t){var e=function(t,e){if("object"!=tt(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var r=n.call(t,e||"default");if("object"!=tt(r))return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===e?String:Number)(t)}(t,"string");return"symbol"==tt(e)?e:e+""}var rt=function(){return t=function t(e,n,r,i,a){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.widget=document.querySelector(e),this.snippetTextField=document.querySelector(n),this.clipboardButton=document.querySelector(r),this.tooltip=document.querySelector(i),this.releases=Array.prototype.slice.call(document.querySelectorAll(a)),this.currentActiveRelease=null,this.tooltipTimeout=2e3,this.widget&&this.snippetTextField&&this.clipboardButton&&this.tooltip&&this.releases.length&&this.init()},(e=[{key:"showCodeSnippetToCopy",value:function(t){if(t.preventDefault(),this.currentActiveRelease===t.target)return this.currentActiveRelease.classList.remove("bg-primary"),this.currentActiveRelease.classList.add("bg-secondary"),this.currentActiveRelease=null,void this.widget.classList.add("d-none");this.currentActiveRelease&&(this.currentActiveRelease.classList.remove("bg-primary"),this.currentActiveRelease.classList.add("bg-secondary")),this.currentActiveRelease=t.target,this.currentActiveRelease.classList.remove("bg-secondary"),this.currentActiveRelease.classList.add("bg-primary");var e=t.target.parentNode.dataset.packageName,n=t.target.textContent;this.snippetTextField.value='"'.concat(e,'": "').concat(n,'"'),this.widget.classList.remove("d-none"),t.target.parentNode.appendChild(this.widget),this.snippetTextField.focus()}},{key:"copyCodeSnippetToClipboard",value:function(){var t=this;this.snippetTextField.focus();var e=!1;"permissions"in navigator&&"clipboard"in navigator&&navigator.permissions.query({name:"clipboard-write"}).then(function(n){"granted"!=n.state&&"prompt"!=n.state||(navigator.clipboard.writeText(t.snippetTextField.value),e=!0)}),e||("clipboardData"in window?window.clipboardData.setData("Text",this.snippetTextField.value):document.execCommand("copy")),this.tooltip.classList.add("show")}},{key:"tooltipFadeout",value:function(t){"transform"!==t.propertyName||t.target.style.transform.length||window.setTimeout(function(){t.target.classList.remove("show")},this.tooltipTimeout)}},{key:"init",value:function(){var t=this;this.releases.forEach(function(e){return e.addEventListener("click",function(e){return t.showCodeSnippetToCopy(e)})}),this.snippetTextField.addEventListener("focus",function(t){return t.target.select()}),this.clipboardButton.addEventListener("click",function(){return t.copyCodeSnippetToClipboard()}),this.tooltip.addEventListener("transitionend",function(e){return t.tooltipFadeout(e)})}}])&&et(t.prototype,e),n&&et(t,n),Object.defineProperty(t,"prototype",{writable:!1}),t;var t,e,n}();function it(){N.calculate("time")}document.addEventListener("DOMContentLoaded",function(){new a,new U('[name="default-filter"]',".filter-field",".default-filter-field"),new X("input#search","#package-list",".card",".filter-field"),new rt(".copy-snippet",".copy-snippet__input",".copy-snippet__button",".copy-snippet__tooltip",".field-releases .badge"),new Q("#toggle-field-all",".toggle-field"),new Z(".settings",".toggle-settings"),it(),window.setInterval(it,5e3)})}();
+</script>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="octicon-link" viewBox="0 0 16 16">
+        <path fill="currentColor" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+    </symbol>
+</svg>
+</body>
+</html>
