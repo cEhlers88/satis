@@ -20,6 +20,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Restore previous build artifacts
+        run: |
+          mkdir -p public
+          if git fetch origin gh-pages --depth=1; then
+            git archive origin/gh-pages | tar -x -C public
+            echo "Previous build artifacts restored."
+          else
+            echo "No previous build artifacts found (gh-pages branch does not exist yet), starting fresh."
+          fi
+
       - uses: shivammathur/setup-php@v2
         with:
           php-version: "8.4"
@@ -35,10 +45,29 @@ jobs:
           git config --global url."https://x-access-token:${SATIS_GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
           git config --global url."https://x-access-token:${SATIS_GITHUB_TOKEN}@github.com/".insteadOf "git@github.com:"
 
+      - name: Get week number for cache key
+        id: cache-date
+        run: |
+          echo "week=$(date +'%G-%V')" >> "$GITHUB_OUTPUT"
+          echo "year=$(date +'%G')" >> "$GITHUB_OUTPUT"
+
+      - name: Cache satis installation
+        uses: actions/cache@v4
+        with:
+          path: .tooling/satis
+          key: satis-tooling-${{ runner.os }}-${{ steps.cache-date.outputs.week }}
+          restore-keys: |
+            satis-tooling-${{ runner.os }}-${{ steps.cache-date.outputs.year }}-
+            satis-tooling-${{ runner.os }}-
+
       - name: Install satis
         run: |
           mkdir -p .tooling
-          composer create-project --no-interaction --no-progress composer/satis .tooling/satis dev-main
+          if [ ! -f ".tooling/satis/bin/satis" ]; then
+            composer create-project --no-interaction --no-progress composer/satis .tooling/satis dev-main
+          else
+            echo "Satis already installed from cache, skipping."
+          fi
 
       - name: Build
         run: |
