@@ -64,6 +64,7 @@ jobs:
         run: |
           mkdir -p .tooling
           if [ ! -f ".tooling/satis/bin/satis" ]; then
+            rm -rf .tooling/satis
             composer create-project --no-interaction --no-progress composer/satis .tooling/satis dev-main
           else
             echo "Satis already installed from cache, skipping."
