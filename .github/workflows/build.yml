@@ -70,11 +70,21 @@ jobs:
             echo "Satis already installed from cache, skipping."
           fi
 
+      - name: Prune index to newest 5 versions per package
+        run: |
+          unset GITHUB_TOKEN
+          php scripts/prune-old-versions.php satis.json 5
+          echo "--- effective satis.json ---"
+          cat satis.json
+
       - name: Build
         run: |
           unset GITHUB_TOKEN
           mkdir -p public
           php .tooling/satis/bin/satis build satis.json public -n
+
+      - name: Remove orphaned include files
+        run: php scripts/cleanup-orphaned-includes.php public
 
       - name: Inspect build output
         run: |
