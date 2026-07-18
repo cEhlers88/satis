@@ -43,7 +43,7 @@ jobs:
           composer config --global --auth github-oauth.github.com "$SATIS_GITHUB_TOKEN"
 
           git config --global url."https://x-access-token:${SATIS_GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
-          git config --global url."https://x-access-token:${SATIS_GITHUB_TOKEN}@github.com/".insteadOf "git@github.com:"
+          git config --global --add url."https://x-access-token:${SATIS_GITHUB_TOKEN}@github.com/".insteadOf "git@github.com:"
 
       - name: Get week number for cache key
         id: cache-date
