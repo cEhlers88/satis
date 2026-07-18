@@ -57,7 +57,11 @@ function run(string $cmd, array $args): array
 /** Alle Tag-Namen eines Remote-Repos (dereferenzierte ^{}-Einträge bevorzugt). */
 function remoteTags(string $url): array
 {
-    [$code, $lines] = run('git ls-remote --tags', [$url]);
+    // -C <tmp>: neutraler Arbeitsordner, damit nicht die lokale Config eines
+    // umgebenden Checkouts greift (actions/checkout setzt dort einen
+    // http.extraheader mit dem nur repo-scoped GITHUB_TOKEN, der die
+    // insteadOf-Credentials übersteuern würde).
+    [$code, $lines] = run('git -C ' . escapeshellarg(sys_get_temp_dir()) . ' ls-remote --tags', [$url]);
     if ($code !== 0) {
         fwrite(STDERR, "WARNUNG: git ls-remote fehlgeschlagen für {$url}:\n  " . implode("\n  ", $lines) . "\n");
         return [];
