@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "cehlers88/analytics-fibu-bundle": [
+            {
+                "name": "cehlers88/analytics-fibu-bundle",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsFiBuBundle.git",
+                    "reference": "09722a30659bfff301d637f1f16791d3c48c3b33"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-fibu-bundle/cehlers88-analytics-fibu-bundle-09722a30659bfff301d637f1f16791d3c48c3b33-zip-4208e9.zip",
+                    "reference": "09722a30659bfff301d637f1f16791d3c48c3b33",
+                    "shasum": "4c1638d4b6e9baeda1fbb2650043a55a89c2183d"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-07-20T08:57:02+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsFiBuBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "FiBu Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsFiBuBundle/tree/v1.10.9",
+                    "issues": "https://github.com/cEhlers88/AnalyticsFiBuBundle/issues"
+                }
+            }
+        ]
+    }
+}

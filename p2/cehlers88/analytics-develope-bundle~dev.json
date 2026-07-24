@@ -1,0 +1,187 @@
+{
+    "packages": {
+        "cehlers88/analytics-develope-bundle": [
+            {
+                "name": "cehlers88/analytics-develope-bundle",
+                "version": "dev-copilot/implement-create-git-issues",
+                "version_normalized": "dev-copilot/implement-create-git-issues",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDevelopeBundle.git",
+                    "reference": "ef884a9430c5df81c9bbcdb8a56b21b211ae483d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-ef884a9430c5df81c9bbcdb8a56b21b211ae483d-zip-87be73.zip",
+                    "reference": "ef884a9430c5df81c9bbcdb8a56b21b211ae483d",
+                    "shasum": "160c66310607f25a4d504829d2ca8624762594ec"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-04-30T11:33:00+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDevelopeBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Develope Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsDevelopeBundle/tree/copilot/implement-create-git-issues",
+                    "issues": "https://github.com/cEhlers88/AnalyticsDevelopeBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-develope-bundle",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDevelopeBundle.git",
+                    "reference": "de4758badc2220b4c5083c6cf93e27a728873fa1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-de4758badc2220b4c5083c6cf93e27a728873fa1-zip-632c23.zip",
+                    "reference": "de4758badc2220b4c5083c6cf93e27a728873fa1",
+                    "shasum": "3fcb42c93076e582b0c700c444a27e3e8b069ee9"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-07-19T08:42:04+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDevelopeBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Develope Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsDevelopeBundle/tree/main",
+                    "issues": "https://github.com/cEhlers88/AnalyticsDevelopeBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-develope-bundle",
+                "version": "dev-release-please--branches--main",
+                "version_normalized": "dev-release-please--branches--main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDevelopeBundle.git",
+                    "reference": "d33e5b38c53cb8861bdb89baa88a2e1687a8f747"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-d33e5b38c53cb8861bdb89baa88a2e1687a8f747-zip-e2710d.zip",
+                    "reference": "d33e5b38c53cb8861bdb89baa88a2e1687a8f747",
+                    "shasum": "ab9088722bef43e46a3b357cef6eca1d58ec8fb9"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-07-19T09:19:59+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDevelopeBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Develope Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsDevelopeBundle/tree/release-please--branches--main",
+                    "issues": "https://github.com/cEhlers88/AnalyticsDevelopeBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-develope-bundle",
+                "version": "dev-renovate/cehlers88-analytics-core-1.x-lockfile",
+                "version_normalized": "dev-renovate/cehlers88-analytics-core-1.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDevelopeBundle.git",
+                    "reference": "1c242211e18a9e7a345747cdac76625baf776901"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-develope-bundle/cehlers88-analytics-develope-bundle-1c242211e18a9e7a345747cdac76625baf776901-zip-e94a29.zip",
+                    "reference": "1c242211e18a9e7a345747cdac76625baf776901",
+                    "shasum": "23aab64e4b1756926e135013d768e478a8d72de6"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-07-20T19:38:30+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDevelopeBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Develope Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsDevelopeBundle/tree/renovate/cehlers88-analytics-core-1.x-lockfile",
+                    "issues": "https://github.com/cEhlers88/AnalyticsDevelopeBundle/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "packages": {
+        "cehlers88/analytics-infrastructure-bundle": [
+            {
+                "name": "cehlers88/analytics-infrastructure-bundle",
+                "version": "v1.10.0",
+                "version_normalized": "1.10.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsInfrastructureBundle.git",
+                    "reference": "3721933f07f1ad3fbfb12e4bd3131f206720dd9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-3721933f07f1ad3fbfb12e4bd3131f206720dd9c-zip-51a4db.zip",
+                    "reference": "3721933f07f1ad3fbfb12e4bd3131f206720dd9c",
+                    "shasum": "7d8c7c95e0a3ac1b43f266e469345faeb1ae2d72"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-07-12T15:20:42+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsInfrastructureBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Infrastructure Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle/tree/v1.10.0",
+                    "issues": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-infrastructure-bundle",
+                "version": "v1.11.0",
+                "version_normalized": "1.11.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsInfrastructureBundle.git",
+                    "reference": "55177fe7ab0439242321822ca5e83da2082b91be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-55177fe7ab0439242321822ca5e83da2082b91be-zip-4ce468.zip",
+                    "reference": "55177fe7ab0439242321822ca5e83da2082b91be",
+                    "shasum": "8d450faa6f5761c3f14c2afd804f68a82a28e0cd"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-07-13T09:34:28+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsInfrastructureBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Infrastructure Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle/tree/v1.11.0",
+                    "issues": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-infrastructure-bundle",
+                "version": "v1.11.1",
+                "version_normalized": "1.11.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsInfrastructureBundle.git",
+                    "reference": "634ad8fb76c0f229444316d67c066ffd04b2e347"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-634ad8fb76c0f229444316d67c066ffd04b2e347-zip-9b9ba1.zip",
+                    "reference": "634ad8fb76c0f229444316d67c066ffd04b2e347",
+                    "shasum": "49f02d81389137454acdd6d4f87aeda8b9284619"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-07-13T10:04:49+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsInfrastructureBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Infrastructure Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle/tree/v1.11.1",
+                    "issues": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-infrastructure-bundle",
+                "version": "v1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsInfrastructureBundle.git",
+                    "reference": "554dddbef46f7c5a4b2475b07b9ab394329e56ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-554dddbef46f7c5a4b2475b07b9ab394329e56ab-zip-6340f9.zip",
+                    "reference": "554dddbef46f7c5a4b2475b07b9ab394329e56ab",
+                    "shasum": "4251754d1cf8aca405048398d7ff938cf88196f6"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-07-20T07:53:59+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsInfrastructureBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Infrastructure Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle/tree/v1.12.0",
+                    "issues": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-infrastructure-bundle",
+                "version": "v1.9.0",
+                "version_normalized": "1.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsInfrastructureBundle.git",
+                    "reference": "6cb384063f05ee0ef3608122423edd6de0ffb1f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-infrastructure-bundle/cehlers88-analytics-infrastructure-bundle-6cb384063f05ee0ef3608122423edd6de0ffb1f7-zip-f65caa.zip",
+                    "reference": "6cb384063f05ee0ef3608122423edd6de0ffb1f7",
+                    "shasum": "251696af4d18b652d3974007c975169f833e75cb"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-07-10T03:48:39+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsInfrastructureBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Infrastructure Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle/tree/v1.9.0",
+                    "issues": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle/issues"
+                }
+            }
+        ]
+    }
+}
