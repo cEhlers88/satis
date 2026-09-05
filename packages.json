@@ -1,0 +1,17 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$e5343c29aa5de0ef1961b5b5a14438f8eb3f2e76.json": {
+            "sha1": "e5343c29aa5de0ef1961b5b5a14438f8eb3f2e76"
+        }
+    },
+    "metadata-url": "/satis/p2/%package%.json",
+    "available-packages": [
+        "cehlers88/analytics-calendar-bundle",
+        "cehlers88/analytics-core",
+        "cehlers88/analytics-develope-bundle",
+        "cehlers88/analytics-documents-bundle",
+        "cehlers88/analytics-fibu-bundle",
+        "cehlers88/analytics-infrastructure-bundle"
+    ]
+}
