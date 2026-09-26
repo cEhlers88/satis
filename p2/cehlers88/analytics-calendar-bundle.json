@@ -1,0 +1,231 @@
+{
+    "packages": {
+        "cehlers88/analytics-calendar-bundle": [
+            {
+                "name": "cehlers88/analytics-calendar-bundle",
+                "version": "v1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCalendarBundle.git",
+                    "reference": "b1ea49a73c6838b7f98719e2b29d1c66aac4b2ff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-b1ea49a73c6838b7f98719e2b29d1c66aac4b2ff-zip-453694.zip",
+                    "reference": "b1ea49a73c6838b7f98719e2b29d1c66aac4b2ff",
+                    "shasum": "81fbc0da719e8671ca9ec8a1f5023230c1935758"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-09-11T12:29:18+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCalendarBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Calendar Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsCalendarBundle/tree/v1.2.0",
+                    "issues": "https://github.com/cEhlers88/AnalyticsCalendarBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-calendar-bundle",
+                "version": "v1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCalendarBundle.git",
+                    "reference": "944f8218121566f061ba6a07426ae6b823b40227"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-944f8218121566f061ba6a07426ae6b823b40227-zip-aabc88.zip",
+                    "reference": "944f8218121566f061ba6a07426ae6b823b40227",
+                    "shasum": "be3cd99004f480ebae397f815767f4e10798355e"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-09-11T12:56:01+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCalendarBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Calendar Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsCalendarBundle/tree/v1.2.1",
+                    "issues": "https://github.com/cEhlers88/AnalyticsCalendarBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-calendar-bundle",
+                "version": "v1.2.2",
+                "version_normalized": "1.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCalendarBundle.git",
+                    "reference": "e1fcb94202a51e5abf514d266411a90a6a6f78a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-e1fcb94202a51e5abf514d266411a90a6a6f78a9-zip-22f543.zip",
+                    "reference": "e1fcb94202a51e5abf514d266411a90a6a6f78a9",
+                    "shasum": "9794811a7c4f8fd4718b16143bfe4ef98b729853"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-09-13T17:41:37+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCalendarBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Calendar Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsCalendarBundle/tree/v1.2.2",
+                    "issues": "https://github.com/cEhlers88/AnalyticsCalendarBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-calendar-bundle",
+                "version": "v1.2.3",
+                "version_normalized": "1.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCalendarBundle.git",
+                    "reference": "6aa2d027c16aa5522a3c40e7406634786b6b6956"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-6aa2d027c16aa5522a3c40e7406634786b6b6956-zip-5388c5.zip",
+                    "reference": "6aa2d027c16aa5522a3c40e7406634786b6b6956",
+                    "shasum": "ba494b0d38d327acf6b7a55e6a352214d2c4c1ef"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-09-13T18:01:42+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCalendarBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Calendar Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsCalendarBundle/tree/v1.2.3",
+                    "issues": "https://github.com/cEhlers88/AnalyticsCalendarBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-calendar-bundle",
+                "version": "v1.2.4",
+                "version_normalized": "1.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCalendarBundle.git",
+                    "reference": "c045120aaff9802dad080be382d00946b07d812c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-calendar-bundle/cehlers88-analytics-calendar-bundle-c045120aaff9802dad080be382d00946b07d812c-zip-aad603.zip",
+                    "reference": "c045120aaff9802dad080be382d00946b07d812c",
+                    "shasum": "703437329a3f7ee1c28ec19374394fd77b5c8a6c"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev"
+                },
+                "time": "2026-09-19T13:29:46+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCalendarBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Calendar Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsCalendarBundle/tree/v1.2.4",
+                    "issues": "https://github.com/cEhlers88/AnalyticsCalendarBundle/issues"
+                }
+            }
+        ]
+    }
+}
