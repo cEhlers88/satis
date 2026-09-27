@@ -7,7 +7,8 @@
     { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsDevelopeBundle" },
     { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsDocumentsBundle" },
     { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsFiBuBundle" },
-    { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle" }
+    { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsInfrastructureBundle" },
+    { "type": "vcs", "url": "https://github.com/cEhlers88/AnalyticsRecruitmentBundle" }
   ],
   "require-all": true,
   "archive": {
