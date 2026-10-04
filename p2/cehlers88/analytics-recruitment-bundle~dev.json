@@ -1,0 +1,169 @@
+{
+    "packages": {
+        "cehlers88/analytics-recruitment-bundle": [
+            {
+                "name": "cehlers88/analytics-recruitment-bundle",
+                "version": "dev-claude/eloquent-galileo-67rgmw",
+                "version_normalized": "dev-claude/eloquent-galileo-67rgmw",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsRecruitmentBundle.git",
+                    "reference": "f4831a1861035679db52ed6c2b412450ba152297"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-recruitment-bundle/cehlers88-analytics-recruitment-bundle-f4831a1861035679db52ed6c2b412450ba152297-zip-7aaac5.zip",
+                    "reference": "f4831a1861035679db52ed6c2b412450ba152297",
+                    "shasum": "32e59a5739bba32ce15d9646bc900d5132b565ae"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev",
+                    "php": ">=8.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^13.0"
+                },
+                "time": "2026-09-29T08:19:13+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsRecruitmentBundle\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsRecruitmentBundle\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Recruitment Bundle for Analytics - supports the job application process",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsRecruitmentBundle/tree/claude/eloquent-galileo-67rgmw",
+                    "issues": "https://github.com/cEhlers88/AnalyticsRecruitmentBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-recruitment-bundle",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsRecruitmentBundle.git",
+                    "reference": "3e6b9036d13f053ecaf0d810b7d38bb942227518"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-recruitment-bundle/cehlers88-analytics-recruitment-bundle-3e6b9036d13f053ecaf0d810b7d38bb942227518-zip-ad3af7.zip",
+                    "reference": "3e6b9036d13f053ecaf0d810b7d38bb942227518",
+                    "shasum": "ed6f76456a933c201af7483b025a1641551d3288"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev",
+                    "php": ">=8.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^13.0"
+                },
+                "time": "2026-09-29T08:26:56+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsRecruitmentBundle\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsRecruitmentBundle\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Recruitment Bundle for Analytics - supports the job application process",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsRecruitmentBundle/tree/main",
+                    "issues": "https://github.com/cEhlers88/AnalyticsRecruitmentBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-recruitment-bundle",
+                "version": "dev-release-please--branches--main",
+                "version_normalized": "dev-release-please--branches--main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsRecruitmentBundle.git",
+                    "reference": "e9243958f48945d04129de060e8e0b9eef79db95"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-recruitment-bundle/cehlers88-analytics-recruitment-bundle-e9243958f48945d04129de060e8e0b9eef79db95-zip-bee08a.zip",
+                    "reference": "e9243958f48945d04129de060e8e0b9eef79db95",
+                    "shasum": "684fcf2efe2114568448b7f6329d1e043231bde1"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev",
+                    "php": ">=8.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^13.0"
+                },
+                "time": "2026-09-29T08:27:13+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsRecruitmentBundle\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsRecruitmentBundle\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Recruitment Bundle for Analytics - supports the job application process",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsRecruitmentBundle/tree/release-please--branches--main",
+                    "issues": "https://github.com/cEhlers88/AnalyticsRecruitmentBundle/issues"
+                }
+            }
+        ]
+    }
+}
