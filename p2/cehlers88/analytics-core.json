@@ -1,0 +1,311 @@
+{
+    "packages": {
+        "cehlers88/analytics-core": [
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v1.50.0",
+                "version_normalized": "1.50.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "cbb4ff725799dce933e782aaddad1b13a6e6d41d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-cbb4ff725799dce933e782aaddad1b13a6e6d41d-zip-e89c88.zip",
+                    "reference": "cbb4ff725799dce933e782aaddad1b13a6e6d41d",
+                    "shasum": "fc3e3acb0397fb6269fa4568406ae37e3dbacffc"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "ext-simplexml": "*",
+                    "ext-soap": "*",
+                    "php": ">=8.4",
+                    "symfony/messenger": "^7.0|^8.0",
+                    "symfony/security-core": "^7.0|^8.0"
+                },
+                "require-dev": {
+                    "doctrine/doctrine-bundle": "^3.3",
+                    "doctrine/orm": "^3.4.4",
+                    "phpunit/phpunit": "^13.0",
+                    "symfony/http-foundation": "^7.0|^8.0"
+                },
+                "time": "2026-10-12T09:39:32+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsCore/tree/v1.50.0",
+                    "issues": "https://github.com/cEhlers88/AnalyticsCore/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v1.51.0",
+                "version_normalized": "1.51.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "84390105a443c5920dcee8c3a2a9f087aeb7f73f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-84390105a443c5920dcee8c3a2a9f087aeb7f73f-zip-9e68a5.zip",
+                    "reference": "84390105a443c5920dcee8c3a2a9f087aeb7f73f",
+                    "shasum": "fec035c9140065169396f748f544a5ae4fe439b4"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "ext-simplexml": "*",
+                    "ext-soap": "*",
+                    "php": ">=8.4",
+                    "symfony/messenger": "^7.0|^8.0",
+                    "symfony/security-core": "^7.0|^8.0"
+                },
+                "require-dev": {
+                    "doctrine/doctrine-bundle": "^3.3",
+                    "doctrine/orm": "^3.4.4",
+                    "phpunit/phpunit": "^13.0",
+                    "symfony/http-foundation": "^7.0|^8.0"
+                },
+                "time": "2026-10-12T13:43:47+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsCore/tree/v1.51.0",
+                    "issues": "https://github.com/cEhlers88/AnalyticsCore/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v1.52.0",
+                "version_normalized": "1.52.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "c2a4a61de43dd6a41891689526a72267272cdb01"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-c2a4a61de43dd6a41891689526a72267272cdb01-zip-84f210.zip",
+                    "reference": "c2a4a61de43dd6a41891689526a72267272cdb01",
+                    "shasum": "eebd45c509d6676fbce26150fded46b94ba6e604"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "ext-simplexml": "*",
+                    "ext-soap": "*",
+                    "php": ">=8.4",
+                    "symfony/messenger": "^7.0|^8.0",
+                    "symfony/security-core": "^7.0|^8.0"
+                },
+                "require-dev": {
+                    "doctrine/doctrine-bundle": "^3.3",
+                    "doctrine/orm": "^3.4.4",
+                    "phpunit/phpunit": "^13.0",
+                    "symfony/http-foundation": "^7.0|^8.0"
+                },
+                "time": "2026-10-13T08:28:28+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsCore/tree/v1.52.0",
+                    "issues": "https://github.com/cEhlers88/AnalyticsCore/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v1.53.0",
+                "version_normalized": "1.53.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "8b7721c26d7261d72df35a0ef2d9ee9a27928d08"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-8b7721c26d7261d72df35a0ef2d9ee9a27928d08-zip-28bccf.zip",
+                    "reference": "8b7721c26d7261d72df35a0ef2d9ee9a27928d08",
+                    "shasum": "7600be24a8c6b7a021e19f979c7c2cdc2935caab"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "ext-simplexml": "*",
+                    "ext-soap": "*",
+                    "php": ">=8.4",
+                    "symfony/messenger": "^7.0|^8.0",
+                    "symfony/security-core": "^7.0|^8.0"
+                },
+                "require-dev": {
+                    "doctrine/doctrine-bundle": "^3.3",
+                    "doctrine/orm": "^3.4.4",
+                    "phpunit/phpunit": "^13.0",
+                    "symfony/http-foundation": "^7.0|^8.0"
+                },
+                "time": "2026-10-14T06:51:14+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsCore/tree/v1.53.0",
+                    "issues": "https://github.com/cEhlers88/AnalyticsCore/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-core",
+                "version": "v1.54.0",
+                "version_normalized": "1.54.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsCore.git",
+                    "reference": "7707221dfe9b2fceb96b01448f0f137763671e79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-core/cehlers88-analytics-core-7707221dfe9b2fceb96b01448f0f137763671e79-zip-1a8a76.zip",
+                    "reference": "7707221dfe9b2fceb96b01448f0f137763671e79",
+                    "shasum": "e20a9a3dd3d65f25b8b33a0a8356a7193488a5ba"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "ext-simplexml": "*",
+                    "ext-soap": "*",
+                    "php": ">=8.4",
+                    "symfony/messenger": "^7.0|^8.0",
+                    "symfony/security-core": "^7.0|^8.0"
+                },
+                "require-dev": {
+                    "doctrine/doctrine-bundle": "^3.3",
+                    "doctrine/orm": "^3.4.4",
+                    "phpunit/phpunit": "^13.0",
+                    "symfony/http-foundation": "^7.0|^8.0"
+                },
+                "time": "2026-10-16T09:03:14+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsCore\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Analytics core",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsCore/tree/v1.54.0",
+                    "issues": "https://github.com/cEhlers88/AnalyticsCore/issues"
+                }
+            }
+        ]
+    }
+}
