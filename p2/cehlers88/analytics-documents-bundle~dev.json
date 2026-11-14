@@ -1,0 +1,282 @@
+{
+    "packages": {
+        "cehlers88/analytics-documents-bundle": [
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "aca70cd2e57a83784e51edb2a9bda3b430b094a3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-aca70cd2e57a83784e51edb2a9bda3b430b094a3-zip-f9ad79.zip",
+                    "reference": "aca70cd2e57a83784e51edb2a9bda3b430b094a3",
+                    "shasum": "1b83ff98db88dd098c325519b1fe77f8c5befe8b"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev",
+                    "dompdf/dompdf": "^3.1",
+                    "phpoffice/phpspreadsheet": "^5.10"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^13.0"
+                },
+                "time": "2026-10-24T16:05:30+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsDocumentsBundle/tree/main",
+                    "issues": "https://github.com/cEhlers88/AnalyticsDocumentsBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "dev-release-please--branches--main",
+                "version_normalized": "dev-release-please--branches--main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "e5b4dd35c13bbad3ebb78b29b2948102a6307127"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-e5b4dd35c13bbad3ebb78b29b2948102a6307127-zip-777028.zip",
+                    "reference": "e5b4dd35c13bbad3ebb78b29b2948102a6307127",
+                    "shasum": "8032053a2b750f15d4e8cf4e383dd562b3fc56e2"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev",
+                    "dompdf/dompdf": "^3.1",
+                    "phpoffice/phpspreadsheet": "^5.10"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^13.0"
+                },
+                "time": "2026-10-24T16:05:43+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsDocumentsBundle/tree/release-please--branches--main",
+                    "issues": "https://github.com/cEhlers88/AnalyticsDocumentsBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "dev-renovate/cehlers88-analytics-core-1.x-lockfile",
+                "version_normalized": "dev-renovate/cehlers88-analytics-core-1.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "e6d11441c81ce835bb02371a42430a3e8dd03f64"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-e6d11441c81ce835bb02371a42430a3e8dd03f64-zip-88e706.zip",
+                    "reference": "e6d11441c81ce835bb02371a42430a3e8dd03f64",
+                    "shasum": "f9566337bd6bb81c520066e37a032cff50ebd603"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev",
+                    "dompdf/dompdf": "^3.1",
+                    "phpoffice/phpspreadsheet": "^5.10"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^13.0"
+                },
+                "time": "2026-11-13T21:47:02+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsDocumentsBundle/tree/renovate/cehlers88-analytics-core-1.x-lockfile",
+                    "issues": "https://github.com/cEhlers88/AnalyticsDocumentsBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "dev-renovate/phpoffice-phpspreadsheet-5.x-lockfile",
+                "version_normalized": "dev-renovate/phpoffice-phpspreadsheet-5.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "99f901d2584d80b992591d1ab554ae7e58439a25"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-99f901d2584d80b992591d1ab554ae7e58439a25-zip-f381d5.zip",
+                    "reference": "99f901d2584d80b992591d1ab554ae7e58439a25",
+                    "shasum": "0c621085e43d2757cbc765c5a23eb5ce14d0523f"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev",
+                    "dompdf/dompdf": "^3.1",
+                    "phpoffice/phpspreadsheet": "^5.10"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^13.0"
+                },
+                "time": "2026-11-08T12:49:47+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsDocumentsBundle/tree/renovate/phpoffice-phpspreadsheet-5.x-lockfile",
+                    "issues": "https://github.com/cEhlers88/AnalyticsDocumentsBundle/issues"
+                }
+            },
+            {
+                "name": "cehlers88/analytics-documents-bundle",
+                "version": "dev-renovate/phpunit-phpunit-13.x-lockfile",
+                "version_normalized": "dev-renovate/phpunit-phpunit-13.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cEhlers88/AnalyticsDocumentsBundle.git",
+                    "reference": "caf0ca6323f28c8206d8bf76fe3494b99ad58260"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://cehlers88.github.io/satis/dist/cehlers88/analytics-documents-bundle/cehlers88-analytics-documents-bundle-caf0ca6323f28c8206d8bf76fe3494b99ad58260-zip-a73e0e.zip",
+                    "reference": "caf0ca6323f28c8206d8bf76fe3494b99ad58260",
+                    "shasum": "68853fd1f4b9da106c9dab89fc0786aabefe435f"
+                },
+                "require": {
+                    "cehlers88/analytics-core": "1.*@dev",
+                    "dompdf/dompdf": "^3.1",
+                    "phpoffice/phpspreadsheet": "^5.10"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^13.0"
+                },
+                "time": "2026-11-13T12:44:59+00:00",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cehlers88\\AnalyticsDocumentsBundle\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "christoph ehlers",
+                        "email": "webmaster@c-ehlers.de"
+                    }
+                ],
+                "description": "Documents Bundle for Analytics",
+                "support": {
+                    "source": "https://github.com/cEhlers88/AnalyticsDocumentsBundle/tree/renovate/phpunit-phpunit-13.x-lockfile",
+                    "issues": "https://github.com/cEhlers88/AnalyticsDocumentsBundle/issues"
+                }
+            }
+        ]
+    }
+}
